@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five Hills Workforce & Technical Solutions | Global Manpower & Corporate Recruitment</title>
+    <meta name="description" content="Five Hills Workforce & Technical Solutions - Premier manpower supply, technical contracting, and professional corporate recruitment for Saudi Arabia, UAE, Qatar, and the GCC.">
+    
+    <!-- Google Fonts: Plus Jakarta Sans & Tajawal (Arabic) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Tajawal:wght@300;400;500;700;800;900&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- SITE HEADER & LUXURY NAVIGATION -->
+    <header class="site-header" id="siteHeader">
+        <div class="container">
+            <div class="nav-container">
+                <!-- Brand Logo (Five Hills Workforce) -->
+                <a href="#hero" class="brand-logo">
+                    <div class="brand-logo-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m8 3 4 8 5-5 5 15H2L8 3z"/>
+                        </svg>
+                    </div>
+                    <div class="brand-logo-text">
+                        <span>FIVE HILLS</span>
+                        WORKFORCE
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Menu -->
+                <nav class="nav-menu">
+                    <a href="#hero" class="nav-link active" data-i18n="nav_home">Home</a>
+                    <a href="#divisions" class="nav-link" data-i18n="nav_divisions">Divisions</a>
+                    <a href="#vacancies" class="nav-link" data-i18n="nav_vacancies">Live Vacancies</a>
+                    <a href="#process" class="nav-link" data-i18n="nav_process">Hiring Process</a>
+                    <a href="#industries" class="nav-link" data-i18n="nav_industries">Industries</a>
+                    <a href="#visa-hub" class="nav-link" data-i18n="nav_visas">Visa & Docs</a>
+                </nav>
+
+                <!-- Actions: Language Switcher, Theme Switcher & CTA -->
+                <div class="nav-actions">
+                    <button class="lang-btn" id="langToggleBtn" onclick="toggleLanguage()">العربية</button>
+                    <button class="icon-btn" id="themeToggleBtn" onclick="toggleTheme()" title="Toggle Theme">☀️</button>
+                    <button class="btn-primary" onclick="openModal('employerModal')" data-i18n="btn_hire_workforce">Hire Workforce</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION WITH CINEMATIC DUBAI BURJ KHALIFA FULL BANNER -->
+    <section class="hero-section full-banner" id="hero">
+        <div class="hero-bg-wrapper">
+            <img src="hero-bg.jpg" alt="Dubai Burj Khalifa & Global Workforce Flight Convergence" class="hero-bg-img">
+            <div class="hero-backdrop-overlay"></div>
+        </div>
+
+        <div class="container hero-container-rel">
+            <div class="hero-content-centered">
+                <div class="pill-badge gold">
+                    <span class="pulse-dot"></span>
+                    <span data-i18n="hero_badge">Global HQ: Dubai Marina &bull; Worldwide Mobilization</span>
+                </div>
+
+                <h1 class="hero-title" data-i18n="hero_title">
+                    From Dubai to the World: <span class="gold-gradient-text">Unlocking Global Elite Workforce</span>
+                </h1>
+
+                <p class="hero-desc" data-i18n="hero_desc">
+                    Headquartered in Dubai, UAE — Five Hills connects elite technical manpower and corporate leadership from worldwide sourcing hubs directly to UAE, Saudi Arabia, and the Gulf region with 4+ decades of proven mastery.
+                </p>
+
+                <div class="hero-cta-group">
+                    <button class="btn-emerald" onclick="openModal('employerModal')" data-i18n="hero_cta_hire">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        Request Manpower Supply
+                    </button>
+                    <a href="#vacancies" class="btn-outline glass-cta" data-i18n="hero_cta_vacancies">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                        Explore Open Vacancies
+                    </a>
+                </div>
+
+                <div class="hero-stats-glass-grid">
+                    <div class="stat-glass-card">
+                        <div class="stat-icon-svg">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        </div>
+                        <h3>25,000+</h3>
+                        <p data-i18n="stat_1">Professionals Deployed</p>
+                    </div>
+                    <div class="stat-glass-card">
+                        <div class="stat-icon-svg">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+                        </div>
+                        <h3>98.4%</h3>
+                        <p data-i18n="stat_2">Client Retention Rate</p>
+                    </div>
+                    <div class="stat-glass-card">
+                        <div class="stat-icon-svg">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+                        </div>
+                        <h3>12+ Hubs</h3>
+                        <p data-i18n="stat_3">Global Sourcing Corridors</p>
+                    </div>
+                    <div class="stat-glass-card">
+                        <div class="stat-icon-svg">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="16" height="20" x="4" y="2" rx="2" ry="2"/><path d="M9 22v-4h6v4"/><path d="M8 6h.01"/><path d="M16 6h.01"/><path d="M8 10h.01"/><path d="M16 10h.01"/><path d="M8 14h.01"/><path d="M16 14h.01"/></svg>
+                        </div>
+                        <h3>Dubai HQ</h3>
+                        <p>Dubai Marina Plaza</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DUAL DIVISIONS ARCHITECTURE -->
+    <section class="divisions-section" id="divisions">
+        <div class="container">
+            <div class="section-header">
+                <div class="pill-badge" data-i18n="div_badge">Specialized Operations</div>
+                <h2 data-i18n="div_title">Tailored Workforce Architecture</h2>
+                <p data-i18n="div_desc">Two autonomous, dedicated business divisions built to provide surgical precision for both industrial field operations and corporate boardroom talent.</p>
+            </div>
+
+            <!-- Division Switcher Tabs -->
+            <div class="division-tabs">
+                <button class="division-tab-btn active" onclick="switchDivision('technical', this)" id="btnTabTech">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                    <span data-i18n="tab_technical">Division A: Technical & Manpower Supply</span>
+                </button>
+                <button class="division-tab-btn" onclick="switchDivision('corporate', this)" id="btnTabCorp">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                    <span data-i18n="tab_corporate">Division B: Corporate & HR Recruitment</span>
+                </button>
+            </div>
+
+            <!-- Panel A: Technical & Manpower Services -->
+            <div class="division-panel active" id="panel-technical">
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div>
+                            <div class="service-card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+                            <h3 data-i18n="srv_tech_1_title">Electrical & Power Linemen</h3>
+                            <p data-i18n="srv_tech_1_desc">High-voltage transmission technicians, certified linemen, industrial electricians, and substation maintenance crews ready for immediate mobilization.</p>
+                        </div>
+                        <div class="service-tags">
+                            <span class="tag-item" data-i18n="srv_tech_1_t1">Linemen</span>
+                            <span class="tag-item" data-i18n="srv_tech_1_t2">HV / LV Grid</span>
+                            <span class="tag-item" data-i18n="srv_tech_1_t3">Trade Certified</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div>
+                            <div class="service-card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+                            <h3 data-i18n="srv_tech_2_title">Mechanical & Piping Specialists</h3>
+                            <p data-i18n="srv_tech_2_desc">Plumbers, pipe fitters, 6G certified welders, duct fabricators, and HVAC technicians for commercial towers and industrial plants.</p>
+                        </div>
+                        <div class="service-tags">
+                            <span class="tag-item" data-i18n="srv_tech_2_t1">Plumbing</span>
+                            <span class="tag-item" data-i18n="srv_tech_2_t2">6G Welding</span>
+                            <span class="tag-item" data-i18n="srv_tech_2_t3">HVAC Plant</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div>
+                            <div class="service-card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="16" height="12" x="1" y="3" rx="2"/><path d="M17 8h4l3 5v4h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
+                            <h3 data-i18n="srv_tech_3_title">Heavy Drivers & Equipment Operators</h3>
+                            <p data-i18n="srv_tech_3_desc">Licensed GCC heavy trailer drivers, crane operators, forklift drivers, and earth-moving machinery specialists with validated driving records.</p>
+                        </div>
+                        <div class="service-tags">
+                            <span class="tag-item" data-i18n="srv_tech_3_t1">Heavy Trailer</span>
+                            <span class="tag-item" data-i18n="srv_tech_3_t2">Tower Crane</span>
+                            <span class="tag-item" data-i18n="srv_tech_3_t3">GCC Licensed</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div>
+                            <div class="service-card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg></div>
+                            <h3 data-i18n="srv_tech_4_title">Civil Construction & Finishing</h3>
+                            <p data-i18n="srv_tech_4_desc">Carpenters, steel fixers, masons, gypsum board technicians, and scaffolding crews for large-scale infrastructure projects.</p>
+                        </div>
+                        <div class="service-tags">
+                            <span class="tag-item" data-i18n="srv_tech_4_t1">Carpentry</span>
+                            <span class="tag-item" data-i18n="srv_tech_4_t2">Steel Fixing</span>
+                            <span class="tag-item" data-i18n="srv_tech_4_t3">Scaffolding</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div>
+                            <div class="service-card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+                            <h3 data-i18n="srv_tech_5_title">Auto & Heavy Equipment Technicians</h3>
+                            <p data-i18n="srv_tech_5_desc">Automotive mechanics, diesel engine troubleshooters, hydraulic repair specialists, and auto parts sales executives.</p>
+                        </div>
+                        <div class="service-tags">
+                            <span class="tag-item" data-i18n="srv_tech_5_t1">Auto Diagnostic</span>
+                            <span class="tag-item" data-i18n="srv_tech_5_t2">Hydraulics</span>
+                            <span class="tag-item" data-i18n="srv_tech_5_t3">Parts Sales</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div>
+                            <div class="service-card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18"/><path d="M19 21v-4"/><path d="M19 17a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v4"/><path d="M9 9h1"/><path d="M9 13h1"/><path d="M14 9h1"/><path d="M14 13h1"/><path d="M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16"/></svg></div>
+                            <h3 data-i18n="srv_tech_6_title">Facility Management & Camp Operations</h3>
+                            <p data-i18n="srv_tech_6_desc">Complete turn-key site manpower, facility maintenance, camp wardens, housekeeping teams, and catering crews.</p>
+                        </div>
+                        <div class="service-tags">
+                            <span class="tag-item" data-i18n="srv_tech_6_t1">FM Maintenance</span>
+                            <span class="tag-item" data-i18n="srv_tech_6_t2">Camp Staff</span>
+                            <span class="tag-item" data-i18n="srv_tech_6_t3">HSE Certified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Panel B: Corporate & HR Recruitment -->
+            <div class="division-panel" id="panel-corporate">
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div>
+                            <div class="service-card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" x2="12" y1="20" y2="10"/><line x1="18" x2="18" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="16"/></svg></div>
+                            <h3 data-i18n="srv_corp_1_title">Finance & Senior Accounting</h3>
+                            <p data-i18n="srv_corp_1_desc">Chartered accountants, financial analysts, audit managers, ERP finance controllers, and accounts payable/receivable specialists.</p>
+                        </div>
+                        <div class="service-tags">
+                            <span class="tag-item" data-i18n="srv_corp_1_t1">CPA / ACCA</span>
+                            <span class="tag-item" data-i18n="srv_corp_1_t2">IFRS Reporting</span>
+                            <span class="tag-item" data-i18n="srv_corp_1_t3">ERP Financials</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div>
+                            <div class="service-card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><line x1="12" x2="12" y1="9" y2="13"/></svg></div>
+                            <h3 data-i18n="srv_corp_2_title">Engineering & Project Management</h3>
+                            <p data-i18n="srv_corp_2_desc">Civil, mechanical, electrical, and structural engineers, PMP certified project directors, and planning / QA/QC managers.</p>
+                        </div>
+                        <div class="service-tags">
+                            <span class="tag-item" data-i18n="srv_corp_2_t1">PMP Certified</span>
+                            <span class="tag-item" data-i18n="srv_corp_2_t2">Civil / MEP</span>
+                            <span class="tag-item" data-i18n="srv_corp_2_t3">QA / QC</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div>
+                            <div class="service-card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div>
+                            <h3 data-i18n="srv_corp_3_title">Business Administration & HR</h3>
+                            <p data-i18n="srv_corp_3_desc">HR directors, talent acquisition leads, executive assistants, bilingual office administrators, and supply chain coordinators.</p>
+                        </div>
+                        <div class="service-tags">
+                            <span class="tag-item" data-i18n="srv_corp_3_t1">HR Director</span>
+                            <span class="tag-item" data-i18n="srv_corp_3_t2">Procurement</span>
+                            <span class="tag-item" data-i18n="srv_corp_3_t3">Bilingual Admin</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div>
+                            <div class="service-card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
+                            <h3 data-i18n="srv_corp_4_title">Sales, Marketing & Commercial</h3>
+                            <p data-i18n="srv_corp_4_desc">B2B sales managers, corporate business development specialists, digital growth heads, and automotive showroom consultants.</p>
+                        </div>
+                        <div class="service-tags">
+                            <span class="tag-item" data-i18n="srv_corp_4_t1">B2B Sales</span>
+                            <span class="tag-item" data-i18n="srv_corp_4_t2">Commercial Lead</span>
+                            <span class="tag-item" data-i18n="srv_corp_4_t3">Auto Retail</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div>
+                            <div class="service-card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg></div>
+                            <h3 data-i18n="srv_corp_5_title">Healthcare & Medical Staffing</h3>
+                            <p data-i18n="srv_corp_5_desc">Specialist doctors, registered nurses, laboratory technicians, and hospital administrators holding SCFHS and DHA credentials.</p>
+                        </div>
+                        <div class="service-tags">
+                            <span class="tag-item" data-i18n="srv_corp_5_t1">SCFHS Licensed</span>
+                            <span class="tag-item" data-i18n="srv_corp_5_t2">Registered Nurse</span>
+                            <span class="tag-item" data-i18n="srv_corp_5_t3">Diagnostics</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div>
+                            <div class="service-card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg></div>
+                            <h3 data-i18n="srv_corp_6_title">IT, Cyber & Enterprise Systems</h3>
+                            <p data-i18n="srv_corp_6_desc">Full-stack developers, network infrastructure engineers, ERP system implementers, and cybersecurity analysts.</p>
+                        </div>
+                        <div class="service-tags">
+                            <span class="tag-item" data-i18n="srv_corp_6_t1">Odoo / SAP</span>
+                            <span class="tag-item" data-i18n="srv_corp_6_t2">Cybersecurity</span>
+                            <span class="tag-item" data-i18n="srv_corp_6_t3">Cloud Infra</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LIVE VACANCIES & JOB BOARD -->
+    <section class="vacancies-section" id="vacancies">
+        <div class="container">
+            <div class="section-header">
+                <div class="pill-badge gold" data-i18n="vac_badge">Current Openings</div>
+                <h2 data-i18n="vac_title">Verified Career Vacancies</h2>
+                <p data-i18n="vac_desc">Explore actively recruiting positions with leading enterprise clients across UAE, Saudi Arabia, and the Gulf Region. Free visa, accommodation, and transportation provided.</p>
+            </div>
+
+            <div class="vacancies-controls">
+                <div class="search-box">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                    <input type="text" id="jobSearchInput" placeholder="Search by job title, skill, or keyword..." oninput="filterJobs()" data-i18n-placeholder="search_placeholder">
+                </div>
+
+                <div class="filter-pills">
+                    <button class="filter-btn active" onclick="setJobCategory('all', this)" data-i18n="filter_all">All Roles</button>
+                    <button class="filter-btn" onclick="setJobCategory('technical', this)" data-i18n="filter_technical">Technical / Field</button>
+                    <button class="filter-btn" onclick="setJobCategory('corporate', this)" data-i18n="filter_corporate">Corporate / HR</button>
+                    <button class="filter-btn" onclick="setJobCategory('driver', this)" data-i18n="filter_driver">Heavy Transport</button>
+                </div>
+            </div>
+
+            <div class="vacancies-grid" id="jobsGrid">
+                <!-- Dynamically generated by app.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 5-STEP MOBILIZATION ROADMAP -->
+    <section class="process-section" id="process">
+        <div class="container">
+            <div class="section-header">
+                <div class="pill-badge emerald" data-i18n="proc_badge">Deployment Lifecycle</div>
+                <h2 data-i18n="proc_title">The 5-Step Mobilization Protocol</h2>
+                <p data-i18n="proc_desc">A rigorous, transparent recruitment and deployment framework ensuring 100% compliance, technical verification, and on-schedule onboarding.</p>
+            </div>
+
+            <div class="process-grid">
+                <div class="process-card">
+                    <div class="step-num">01</div>
+                    <div class="process-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="m9 14 2 2 4-4"/></svg>
+                    </div>
+                    <h3 data-i18n="step_1_title">Demand Analysis</h3>
+                    <p data-i18n="step_1_desc">Receiving detailed client manpower specs, salary structures, job descriptions, and project deployment milestones.</p>
+                </div>
+
+                <div class="process-card">
+                    <div class="step-num">02</div>
+                    <div class="process-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>
+                    </div>
+                    <h3 data-i18n="step_2_title">Sourcing & Pre-screening</h3>
+                    <p data-i18n="step_2_desc">Tapping our global talent reservoir in India, Egypt, and Asia to shortlist top-tier qualified candidates.</p>
+                </div>
+
+                <div class="process-card">
+                    <div class="step-num">03</div>
+                    <div class="process-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                    </div>
+                    <h3 data-i18n="step_3_title">Trade Testing & Vetting</h3>
+                    <p data-i18n="step_3_desc">Hands-on practical workshop trade tests and rigorous technical interviews conducted by certified evaluators.</p>
+                </div>
+
+                <div class="process-card">
+                    <div class="step-num">04</div>
+                    <div class="process-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+                    </div>
+                    <h3 data-i18n="step_4_title">Medical & Visa Stamping</h3>
+                    <p data-i18n="step_4_desc">GAMCA medical clearances, background checks, document attestation, and rapid embassy visa endorsement.</p>
+                </div>
+
+                <div class="process-card">
+                    <div class="step-num">05</div>
+                    <div class="process-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>
+                    </div>
+                    <h3 data-i18n="step_5_title">Flight & Onboarding</h3>
+                    <p data-i18n="step_5_desc">Ticketing, pre-departure orientation, GCC airport reception, camp settling, and immediate site integration.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INDUSTRIES WE SERVE -->
+    <section class="industries-section" id="industries">
+        <div class="container">
+            <div class="section-header">
+                <div class="pill-badge" data-i18n="ind_badge">Industry Expertise</div>
+                <h2 data-i18n="ind_title">Powering Crucial Sectors Globally</h2>
+                <p data-i18n="ind_desc">Delivering tailored manpower solutions for complex megaprojects and enterprise industries.</p>
+            </div>
+
+            <div class="industries-grid">
+                <div class="industry-bento-card">
+                    <div class="industry-icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v6"/><path d="m4.93 10.93 4.24 4.24"/><path d="M2 18h6"/><path d="M20 18h2"/><path d="m19.07 10.93-4.24 4.24"/><path d="M22 22H2"/><path d="m8 6 4-4 4 4"/><path d="M16 18a4 4 0 0 0-8 0"/></svg></div>
+                    <h3 data-i18n="ind_1_title">Oil & Gas / Petrochemicals</h3>
+                    <p data-i18n="ind_1_desc">Refinery operators, pipeline welders, safety engineers, and maintenance shutdowns.</p>
+                </div>
+                <div class="industry-bento-card">
+                    <div class="industry-icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="16" height="20" x="4" y="2" rx="2" ry="2"/><path d="M9 22v-4h6v4"/></svg></div>
+                    <h3 data-i18n="ind_2_title">Mega Infrastructure & Civil</h3>
+                    <p data-i18n="ind_2_desc">High-rise developments, bridge construction, metro projects, and earth-moving teams.</p>
+                </div>
+                <div class="industry-bento-card">
+                    <div class="industry-icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></div>
+                    <h3 data-i18n="ind_3_title">Electro-Mechanical (MEP)</h3>
+                    <p data-i18n="ind_3_desc">Substation specialists, commercial electrical distribution, and industrial plumbing.</p>
+                </div>
+                <div class="industry-bento-card">
+                    <div class="industry-icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg></div>
+                    <h3 data-i18n="ind_4_title">Healthcare & Medical Centers</h3>
+                    <p data-i18n="ind_4_desc">Specialized nurses, doctors, allied health workers, and clinical technicians.</p>
+                </div>
+                <div class="industry-bento-card">
+                    <div class="industry-icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/></svg></div>
+                    <h3 data-i18n="ind_5_title">Processing Plants & Manufacturing</h3>
+                    <p data-i18n="ind_5_desc">Assembly line operators, CNC machinists, quality control inspectors, and plant supervisors.</p>
+                </div>
+                <div class="industry-bento-card">
+                    <div class="industry-icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"/><path d="M9 16v6"/><path d="M8 6h.01"/><path d="M16 6h.01"/><path d="M8 10h.01"/><path d="M16 10h.01"/></svg></div>
+                    <h3 data-i18n="ind_6_title">Hospitality, Catering & Facilities</h3>
+                    <p data-i18n="ind_6_desc">Chefs, hotel operations, housekeeping squads, and facility maintenance teams.</p>
+                </div>
+                <div class="industry-bento-card">
+                    <div class="industry-icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="16" height="12" x="1" y="3" rx="2"/><path d="M17 8h4l3 5v4h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
+                    <h3 data-i18n="ind_7_title">Logistics, Fleet & Warehousing</h3>
+                    <p data-i18n="ind_7_desc">Heavy transport drivers, supply chain managers, warehouse dispatchers, and forklift crews.</p>
+                </div>
+                <div class="industry-bento-card">
+                    <div class="industry-icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div>
+                    <h3 data-i18n="ind_8_title">Finance & Corporate Governance</h3>
+                    <p data-i18n="ind_8_desc">Executive leadership, audit managers, ERP accounting leads, and administrative officers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COUNTRY VISA & DOCUMENT SPECIFICATIONS HUB -->
+    <section class="visa-hub-section" id="visa-hub">
+        <div class="container">
+            <div class="section-header">
+                <div class="pill-badge gold" data-i18n="visa_badge">Document Compliance</div>
+                <h2 data-i18n="visa_title">Country-Specific Visa & Photo Guide</h2>
+                <p data-i18n="visa_desc">Accurate, up-to-date embassy documentation standards and photograph dimensions for seamless visa processing.</p>
+            </div>
+
+            <div class="country-nav">
+                <button class="country-tab-btn" onclick="switchCountry('ksa', this)">🇸🇦 Saudi Arabia (KSA)</button>
+                <button class="country-tab-btn active" onclick="switchCountry('uae', this)">🇦🇪 United Arab Emirates</button>
+                <button class="country-tab-btn" onclick="switchCountry('qatar', this)">🇶🇦 Qatar</button>
+                <button class="country-tab-btn" onclick="switchCountry('oman', this)">🇴🇲 Oman</button>
+                <button class="country-tab-btn" onclick="switchCountry('kuwait', this)">🇰🇼 Kuwait</button>
+                <button class="country-tab-btn" onclick="switchCountry('bahrain', this)">🇧🇭 Bahrain</button>
+            </div>
+
+            <div class="country-details-box" id="countryDetailsBox">
+                <!-- Dynamically populated by app.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="brand-logo">
+                        <div class="brand-logo-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>
+                        </div>
+                        <div class="brand-logo-text">
+                            <span>FIVE HILLS</span>
+                            WORKFORCE
+                        </div>
+                    </div>
+                    <p data-i18n="footer_about">
+                        Headquartered in Dubai Marina Plaza, UAE. Part of the Five Hills ecosystem, mobilizing world-class workforce from global sourcing corridors to the GCC.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-i18n="footer_divisions">Divisions</h4>
+                    <ul class="footer-links">
+                        <li><a href="#divisions" data-i18n="footer_link_tech">Technical Manpower</a></li>
+                        <li><a href="#divisions" data-i18n="footer_link_corp">Corporate Recruitment</a></li>
+                        <li><a href="#divisions" data-i18n="footer_link_heavy">Heavy Machinery & Drivers</a></li>
+                        <li><a href="#divisions" data-i18n="footer_link_fm">Facility Management</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-i18n="footer_destinations">GCC Hubs</h4>
+                    <ul class="footer-links">
+                        <li><a href="#visa-hub">United Arab Emirates (Dubai HQ)</a></li>
+                        <li><a href="#visa-hub">Kingdom of Saudi Arabia (Riyadh)</a></li>
+                        <li><a href="#visa-hub">State of Qatar (Doha)</a></li>
+                        <li><a href="#visa-hub">Sultanate of Oman (Muscat)</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-i18n="footer_contact">Contact & Inquiries</h4>
+                    <ul class="footer-links">
+                        <li><span>📍 Dubai Marina Plaza, UAE</span></li>
+                        <li><span>📞 +971 50 893 0996</span></li>
+                        <li><span>✉️ workforce@fivehills.ae</span></li>
+                        <li><span>💬 WhatsApp: +971 58 587 4751</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Five Hills Workforce & Technical Solutions. All Rights Reserved.</p>
+                <p>Designed with Luxury Standards &bull; High-Performance Architecture</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/971585874751?text=Hello%20Five%20Hills%20Workforce%20Team" class="whatsapp-floating" target="_blank" title="Chat on WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"/><path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"/></svg>
+    </a>
+
+    <!-- CANDIDATE QUICK APPLY MODAL -->
+    <div class="modal-backdrop" id="applyModal">
+        <div class="modal-dialog">
+            <button class="modal-close" onclick="closeModal('applyModal')">&times;</button>
+            <div class="pill-badge emerald" style="margin-bottom:10px;">CANDIDATE APPLICATION</div>
+            <h3 style="font-size:1.45rem; margin-bottom:8px;" id="applyModalJobTitle">Apply for Position</h3>
+            <p style="font-size:0.88rem; color:var(--text-muted); margin-bottom:22px;">Submit your profile directly to our recruitment committee for priority shortlisting.</p>
+            
+            <form onsubmit="handleApplySubmit(event)">
+                <div class="form-group">
+                    <label>Full Name *</label>
+                    <input type="text" class="form-control" placeholder="Your full legal name" required>
+                </div>
+                <div class="form-group" style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+                    <div>
+                        <label>Phone / WhatsApp *</label>
+                        <input type="tel" class="form-control" placeholder="+971 / +966..." required>
+                    </div>
+                    <div>
+                        <label>Email Address *</label>
+                        <input type="email" class="form-control" placeholder="you@email.com" required>
+                    </div>
+                </div>
+                <div class="form-group" style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+                    <div>
+                        <label>Years of Experience *</label>
+                        <select class="form-control">
+                            <option>1-3 Years</option>
+                            <option selected>3-5 Years</option>
+                            <option>5-10 Years</option>
+                            <option>10+ Years</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Current Location *</label>
+                        <input type="text" class="form-control" placeholder="e.g. India, Egypt, UAE...">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Upload CV / Resume (PDF, DOCX) *</label>
+                    <div class="file-dropzone" onclick="document.getElementById('cvFileInput').click()">
+                        <div style="font-size:1.8rem; margin-bottom:6px;">📄</div>
+                        <p style="font-size:0.86rem; font-weight:600; color:var(--primary);">Click or Drag & Drop your CV</p>
+                        <p style="font-size:0.75rem; color:var(--text-muted);">Max file size: 10MB</p>
+                        <input type="file" id="cvFileInput" style="display:none;" onchange="handleFileSelected(this)">
+                        <span id="selectedFileName" style="display:block; font-size:0.82rem; color:var(--accent-emerald); font-weight:600; margin-top:8px;"></span>
+                    </div>
+                </div>
+                <button type="submit" class="btn-emerald" style="width:100%; margin-top:10px;">Submit Application</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- EMPLOYER MANPOWER INQUIRY MODAL -->
+    <div class="modal-backdrop" id="employerModal">
+        <div class="modal-dialog">
+            <button class="modal-close" onclick="closeModal('employerModal')">&times;</button>
+            <div class="pill-badge gold" style="margin-bottom:10px;">ENTERPRISE MANPOWER REQUEST</div>
+            <h3 style="font-size:1.45rem; margin-bottom:8px;">Request Workforce Supply</h3>
+            <p style="font-size:0.88rem; color:var(--text-muted); margin-bottom:22px;">Fill in your staffing demands. Our corporate mobilization director will contact you within 2 business hours.</p>
+            
+            <form onsubmit="handleEmployerSubmit(event)">
+                <div class="form-group">
+                    <label>Company / Organization Name *</label>
+                    <input type="text" class="form-control" placeholder="e.g. Al-Falak Contracting Group" required>
+                </div>
+                <div class="form-group" style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+                    <div>
+                        <label>Contact Person & Title *</label>
+                        <input type="text" class="form-control" placeholder="e.g. HR Manager / Project Director" required>
+                    </div>
+                    <div>
+                        <label>Business Email *</label>
+                        <input type="email" class="form-control" placeholder="hr@company.com" required>
+                    </div>
+                </div>
+                <div class="form-group" style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+                    <div>
+                        <label>Required Division *</label>
+                        <select class="form-control">
+                            <option>Technical & Field Crew</option>
+                            <option>Heavy Drivers & Operators</option>
+                            <option>Corporate & Executive Talent</option>
+                            <option>Turnkey Camp & FM Staffing</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Headcount Needed *</label>
+                        <select class="form-control">
+                            <option>5 - 20 Workers</option>
+                            <option>20 - 50 Workers</option>
+                            <option>50 - 200 Workers</option>
+                            <option>200+ Large Deployment</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Project Location / Country *</label>
+                    <input type="text" class="form-control" placeholder="e.g. Riyadh, Saudi Arabia / NEOM / Dubai" required>
+                </div>
+                <div class="form-group">
+                    <label>Detailed Job Requirements / Notes</label>
+                    <textarea class="form-control" rows="3" placeholder="Provide details regarding skill trades, trade testing, certificates, timeline..."></textarea>
+                </div>
+                <button type="submit" class="btn-primary" style="width:100%; margin-top:8px;">Submit Workforce Demand</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Application Script -->
+    <script src="app.js"></script>
+</body>
+</html>
