@@ -1490,3 +1490,280 @@ button, input, select, textarea {
 .industry-bento-card:hover .industry-icon-box svg {
   stroke: #FFFFFF;
 }
+
+/* ==========================================================================
+   MOBILE & RESPONSIVE DESIGN PERFECTION
+   ========================================================================== */
+
+/* Mobile Hamburger Button */
+.mobile-menu-btn {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 32px;
+  height: 22px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1001;
+}
+
+.mobile-menu-btn span {
+  display: block;
+  height: 2.5px;
+  width: 100%;
+  background: var(--text-heading);
+  border-radius: 4px;
+  transition: var(--transition-fast);
+}
+
+.mobile-menu-btn.active span:nth-child(1) {
+  transform: translateY(9.5px) rotate(45deg);
+}
+.mobile-menu-btn.active span:nth-child(2) {
+  opacity: 0;
+}
+.mobile-menu-btn.active span:nth-child(3) {
+  transform: translateY(-9.5px) rotate(-45deg);
+}
+
+/* Mobile Nav Drawer */
+.mobile-nav-drawer {
+  position: fixed;
+  top: 0;
+  right: -320px;
+  width: 300px;
+  height: 100vh;
+  height: 100dvh;
+  background: var(--bg-card);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-left: 1px solid var(--border-medium);
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px 20px;
+  transition: right 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+}
+
+[dir="rtl"] .mobile-nav-drawer {
+  right: auto;
+  left: -320px;
+  border-left: none;
+  border-right: 1px solid var(--border-medium);
+  transition: left 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 10px 0 30px rgba(0, 0, 0, 0.15);
+}
+
+.mobile-nav-drawer.active {
+  right: 0;
+}
+[dir="rtl"] .mobile-nav-drawer.active {
+  left: 0;
+}
+
+.mobile-drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 1999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.mobile-drawer-backdrop.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mobile-nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.mobile-nav-close {
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  line-height: 1;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0 4px;
+}
+
+.mobile-nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 24px 0;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.mobile-nav-link {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-heading);
+  padding: 10px 14px;
+  border-radius: var(--radius-md);
+  transition: var(--transition-fast);
+  display: flex;
+  align-items: center;
+}
+
+.mobile-nav-link:hover,
+.mobile-nav-link.active {
+  background: rgba(var(--primary-rgb), 0.08);
+  color: var(--primary);
+}
+
+.mobile-nav-footer {
+  padding-top: 18px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.mobile-nav-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* RESPONSIVE BREAKPOINTS */
+@media (max-width: 991px) {
+  .nav-menu {
+    display: none;
+  }
+  .desktop-only {
+    display: none !important;
+  }
+  .mobile-menu-btn {
+    display: flex;
+  }
+  .site-header {
+    padding: 12px 0;
+  }
+  .hero-section.full-banner {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    min-height: auto;
+  }
+  .hero-content-centered .hero-title {
+    font-size: 2.2rem;
+  }
+  .hero-content-centered .hero-desc {
+    font-size: 1rem;
+    margin-bottom: 26px;
+  }
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-cta-group .btn-emerald,
+  .hero-cta-group .btn-outline {
+    width: 100%;
+    justify-content: center;
+  }
+  .hero-stats-glass-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  .division-tabs {
+    flex-direction: column;
+    width: 100%;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .division-tab-btn {
+    width: 100%;
+    justify-content: center;
+  }
+  .vacancies-controls {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 14px;
+  }
+  .filter-pills {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 6px;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+  }
+  .country-nav {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 8px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .country-tab-btn {
+    flex-shrink: 0;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-content-centered .hero-title {
+    font-size: 1.85rem;
+    line-height: 1.25;
+  }
+  .hero-stats-glass-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .stat-glass-card {
+    padding: 14px 10px;
+  }
+  .stat-glass-card h3 {
+    font-size: 1.3rem;
+  }
+  .stat-glass-card p {
+    font-size: 0.75rem;
+  }
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+  .process-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .industries-grid {
+    grid-template-columns: 1fr;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .modal-dialog {
+    padding: 24px 18px;
+    width: 94%;
+    margin: 16px auto;
+  }
+  .modal-dialog .form-group[style*="grid-template-columns:1fr 1fr"] {
+    grid-template-columns: 1fr !important;
+  }
+  .country-details-box {
+    padding: 20px 16px;
+  }
+  .visa-spec-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Touch and Input Optimizations for Mobile */
+input, select, textarea, button {
+  font-size: 16px !important; /* Prevents auto-zoom in iOS Safari */
+}

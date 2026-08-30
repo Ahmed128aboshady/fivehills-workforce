@@ -1298,3 +1298,25 @@ function initDubaiGlobal3DEarth() {
         renderer.setSize(w, h);
     });
 }
+
+// --- MOBILE MENU DRAWER CONTROLLER ---
+function toggleMobileMenu() {
+    const drawer = document.getElementById('mobileNavDrawer');
+    const backdrop = document.getElementById('mobileDrawerBackdrop');
+    const menuBtn = document.getElementById('mobileMenuBtn');
+    
+    if (!drawer) return;
+    const isOpen = drawer.classList.contains('active');
+    
+    if (isOpen) {
+        drawer.classList.remove('active');
+        backdrop?.classList.remove('active');
+        menuBtn?.classList.remove('active');
+        document.body.style.overflow = '';
+    } else {
+        drawer.classList.add('active');
+        backdrop?.classList.add('active');
+        menuBtn?.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+}
