@@ -531,6 +531,7 @@
     <footer class="site-footer">
         <div class="container">
             <div class="footer-grid">
+                <div class="footer-about">
                     <a href="#hero" class="brand-logo footer-brand-logo" aria-label="Five Hills Workforce">
                         <img src="logo-horizontal.png" alt="Five Hills Workforce & Technical Solutions" class="brand-logo-img logo-light">
                         <img src="logo-horizontal-dark.png" alt="Five Hills Workforce & Technical Solutions" class="brand-logo-img logo-dark">
@@ -538,42 +539,63 @@
                     <p data-i18n="footer_about">
                         Headquartered in Dubai Marina Plaza, UAE. Part of the Five Hills ecosystem, mobilizing world-class workforce from global sourcing corridors to the GCC.
                     </p>
+                    <div class="footer-badge-wrap">
+                        <a href="https://wa.me/971585874751?text=Hello%20Five%20Hills%20Workforce%20Team" target="_blank" class="footer-whatsapp-btn" title="Chat on WhatsApp">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"/><path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"/></svg>
+                            <span>WhatsApp Direct</span>
+                        </a>
+                    </div>
                 </div>
 
                 <div class="footer-col">
-                    <h4 data-i18n="footer_divisions">Divisions</h4>
+                    <h4 data-i18n="footer_divisions">Divisions & Services</h4>
                     <ul class="footer-links">
-                        <li><a href="#divisions" data-i18n="footer_link_tech">Technical Manpower</a></li>
+                        <li><a href="#divisions" data-i18n="footer_link_tech">Technical & Field Crew</a></li>
                         <li><a href="#divisions" data-i18n="footer_link_corp">Corporate Recruitment</a></li>
                         <li><a href="#divisions" data-i18n="footer_link_heavy">Heavy Machinery & Drivers</a></li>
-                        <li><a href="#divisions" data-i18n="footer_link_fm">Facility Management</a></li>
+                        <li><a href="#divisions" data-i18n="footer_link_fm">Building & FM Maintenance</a></li>
+                        <li><a href="#accelerated-sla" data-i18n="sla_badge">Accelerated Mobilization SLAs</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-col">
                     <h4 data-i18n="footer_destinations">GCC Hubs</h4>
                     <ul class="footer-links">
-                        <li><a href="#visa-hub">United Arab Emirates (Dubai HQ)</a></li>
-                        <li><a href="#visa-hub">Kingdom of Saudi Arabia (Riyadh)</a></li>
-                        <li><a href="#visa-hub">State of Qatar (Doha)</a></li>
-                        <li><a href="#visa-hub">Sultanate of Oman (Muscat)</a></li>
+                        <li><a href="#visa-hub" onclick="switchCountry('uae')">🇦🇪 United Arab Emirates (Dubai HQ)</a></li>
+                        <li><a href="#visa-hub" onclick="switchCountry('ksa')">🇸🇦 Kingdom of Saudi Arabia (Riyadh)</a></li>
+                        <li><a href="#visa-hub" onclick="switchCountry('qatar')">🇶🇦 State of Qatar (Doha)</a></li>
+                        <li><a href="#visa-hub" onclick="switchCountry('oman')">🇴🇲 Sultanate of Oman (Muscat)</a></li>
+                        <li><a href="#visa-hub" onclick="switchCountry('kuwait')">🇰🇼 State of Kuwait</a></li>
+                        <li><a href="#visa-hub" onclick="switchCountry('bahrain')">🇧🇭 Kingdom of Bahrain</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-col">
                     <h4 data-i18n="footer_contact">Contact & Inquiries</h4>
-                    <ul class="footer-links">
-                        <li><span>📍 Dubai Marina Plaza, UAE</span></li>
-                        <li><span>📞 +971 50 893 0996</span></li>
-                        <li><span>✉️ workforce@fivehills.ae</span></li>
-                        <li><span>💬 WhatsApp: +971 58 587 4751</span></li>
+                    <ul class="footer-contact-list">
+                        <li>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <span>Dubai Marina Plaza, Dubai, UAE</span>
+                        </li>
+                        <li>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            <a href="tel:+971508930996" dir="ltr">+971 50 893 0996</a>
+                        </li>
+                        <li>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                            <a href="mailto:workforce@fivehills.ae">workforce@fivehills.ae</a>
+                        </li>
+                        <li>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"/><path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"/></svg>
+                            <a href="https://wa.me/971585874751?text=Hello%20Five%20Hills%20Workforce%20Team" target="_blank" dir="ltr">WhatsApp: +971 58 587 4751</a>
+                        </li>
                     </ul>
                 </div>
             </div>
 
             <div class="footer-bottom">
                 <p>&copy; 2026 Five Hills Workforce & Technical Solutions. All Rights Reserved.</p>
-                <p>Designed with Luxury Standards &bull; High-Performance Architecture</p>
+                <p class="footer-tagline">Designed with Luxury Standards &bull; High-Performance Architecture</p>
             </div>
         </div>
     </footer>
