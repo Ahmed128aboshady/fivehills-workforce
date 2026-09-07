@@ -780,6 +780,148 @@ button, input, select, textarea {
   border: 1px solid var(--border-subtle);
 }
 
+/* --- ACCELERATED MOBILIZATION & SPEED SLAs --- */
+.sla-accelerated-section {
+  padding: 40px 0 70px 0;
+  background: var(--bg-page);
+}
+
+.sla-card-wrapper {
+  background: var(--bg-card);
+  border: 1.5px solid var(--border-medium);
+  border-radius: var(--radius-xl);
+  padding: 48px 40px;
+  box-shadow: var(--shadow-md);
+  position: relative;
+  overflow: hidden;
+}
+
+.sla-card-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent-emerald), var(--accent-gold), var(--primary));
+}
+
+.sla-header {
+  text-align: center;
+  max-width: 780px;
+  margin: 0 auto 40px auto;
+}
+
+.sla-header h2 {
+  font-size: 2.1rem;
+  margin: 14px 0 12px 0;
+  color: var(--text-title);
+  line-height: 1.25;
+}
+
+.sla-header p {
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.sla-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.sla-metric-item {
+  background: var(--bg-surface-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 28px 22px;
+  text-align: center;
+  transition: var(--transition-smooth);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sla-metric-item:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent-emerald);
+  box-shadow: var(--shadow-md);
+}
+
+.sla-metric-icon {
+  width: 54px;
+  height: 54px;
+  border-radius: var(--radius-md);
+  background: rgba(27, 130, 67, 0.1);
+  color: var(--accent-emerald);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  transition: var(--transition-smooth);
+}
+
+.sla-metric-item:hover .sla-metric-icon {
+  background: var(--accent-emerald);
+  color: #FFFFFF;
+  transform: scale(1.1);
+}
+
+.sla-metric-num {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--primary);
+  line-height: 1.1;
+  margin-bottom: 8px;
+  font-family: var(--font-heading);
+}
+
+.sla-unit {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--accent-gold);
+  margin-left: 2px;
+}
+
+[dir="rtl"] .sla-unit {
+  margin-left: 0;
+  margin-right: 2px;
+}
+
+.sla-metric-item h4 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-title);
+  margin-bottom: 8px;
+}
+
+.sla-metric-item p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  .sla-metrics-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .sla-card-wrapper {
+    padding: 30px 18px;
+  }
+  .sla-header h2 {
+    font-size: 1.6rem;
+  }
+  .sla-metrics-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
 .vacancies-section {
   padding: 90px 0;
   background: var(--bg-page);

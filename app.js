@@ -381,34 +381,47 @@ const I18N_DICTIONARY = {
         srv_tech_5_desc: 'Automotive mechanics, diesel engine troubleshooters, hydraulic repair specialists, and auto parts sales executives.',
         srv_tech_5_t1: 'Auto Diagnostic', srv_tech_5_t2: 'Hydraulics', srv_tech_5_t3: 'Parts Sales',
         
-        srv_tech_6_title: 'Facility Management & Camp Operations',
-        srv_tech_6_desc: 'Complete turn-key site manpower, facility maintenance, camp wardens, housekeeping teams, and catering crews.',
-        srv_tech_6_t1: 'FM Maintenance', srv_tech_6_t2: 'Camp Staff', srv_tech_6_t3: 'HSE Certified',
+        srv_tech_6_title: 'Building Maintenance & Technical Facility Operations',
+        srv_tech_6_desc: 'Comprehensive commercial & residential building operations, preventive HVAC maintenance, MEP repairs, camp management, and 24/7 technical callout teams.',
+        srv_tech_6_t1: 'Building Maintenance', srv_tech_6_t2: '24/7 Technical MEP', srv_tech_6_t3: 'HSE Certified',
 
-        // Division B: Corporate
-        srv_corp_1_title: 'Finance & Senior Accounting',
-        srv_corp_1_desc: 'Chartered accountants, financial analysts, audit managers, ERP finance controllers, and accounts payable/receivable specialists.',
-        srv_corp_1_t1: 'CPA / ACCA', srv_corp_1_t2: 'IFRS Reporting', srv_corp_1_t3: 'ERP Financials',
+        // Division B: Corporate & Professional Solutions
+        srv_corp_1_title: 'Global Recruitment Services',
+        srv_corp_1_desc: 'Rapid international talent acquisition across Asia, Europe, Africa, and Arab corridors with multi-stage technical testing and credential authentication.',
+        srv_corp_1_t1: 'Global Sourcing', srv_corp_1_t2: 'Fast-Track Hiring', srv_corp_1_t3: 'Rigorous Vetting',
         
-        srv_corp_2_title: 'Engineering & Project Management',
-        srv_corp_2_desc: 'Civil, mechanical, electrical, and structural engineers, PMP certified project directors, and planning / QA/QC managers.',
-        srv_corp_2_t1: 'PMP Certified', srv_corp_2_t2: 'Civil / MEP', srv_corp_2_t3: 'QA / QC',
+        srv_corp_2_title: 'Visa Processing Services',
+        srv_corp_2_desc: 'End-to-end work visa issuance, GAMCA medical clearances, embassy document attestation, and rapid residency permit endorsements across UAE, KSA, and GCC.',
+        srv_corp_2_t1: 'Express Visas', srv_corp_2_t2: 'Work Permits', srv_corp_2_t3: 'GAMCA & Stamping',
         
-        srv_corp_3_title: 'Business Administration & HR',
-        srv_corp_3_desc: 'HR directors, talent acquisition leads, executive assistants, bilingual office administrators, and supply chain coordinators.',
-        srv_corp_3_t1: 'HR Director', srv_corp_3_t2: 'Procurement', srv_corp_3_t3: 'Bilingual Admin',
+        srv_corp_3_title: 'Payroll Services & WPS Compliance',
+        srv_corp_3_desc: 'Automated multi-currency payroll processing, 100% Wage Protection System (WPS) compliance, tax filings, overtime administration, and gratuity calculations.',
+        srv_corp_3_t1: 'WPS Compliance', srv_corp_3_t2: 'Automated Payroll', srv_corp_3_t3: 'Gratuity & Tax',
         
-        srv_corp_4_title: 'Sales, Marketing & Commercial',
-        srv_corp_4_desc: 'B2B sales managers, corporate business development specialists, digital growth heads, and automotive showroom consultants.',
-        srv_corp_4_t1: 'B2B Sales', srv_corp_4_t2: 'Commercial Lead', srv_corp_4_t3: 'Auto Retail',
+        srv_corp_4_title: 'Employee Engagement & Team Building',
+        srv_corp_4_desc: 'Structured employee welfare, cross-cultural onboarding, productivity coaching, conflict mitigation, and team development workshops for maximum retention.',
+        srv_corp_4_t1: 'Team Building', srv_corp_4_t2: 'Talent Retention', srv_corp_4_t3: 'Productivity & Culture',
         
-        srv_corp_5_title: 'Healthcare & Medical Staffing',
-        srv_corp_5_desc: 'Specialist doctors, registered nurses, laboratory technicians, and hospital administrators holding SCFHS and DHA credentials.',
-        srv_corp_5_t1: 'SCFHS Licensed', srv_corp_5_t2: 'Registered Nurse', srv_corp_5_t3: 'Diagnostics',
+        srv_corp_5_title: 'Executive Search & Headhunting',
+        srv_corp_5_desc: 'Confidential C-suite recruitment, board advisors, general managers, and project directors for GCC conglomerates, mega-developers, and enterprises.',
+        srv_corp_5_t1: 'C-Suite Search', srv_corp_5_t2: 'Confidential', srv_corp_5_t3: 'P&L Leaders',
         
-        srv_corp_6_title: 'IT, Cyber & Enterprise Systems',
-        srv_corp_6_desc: 'Full-stack developers, network infrastructure engineers, ERP system implementers, and cybersecurity analysts.',
-        srv_corp_6_t1: 'Odoo / SAP', srv_corp_6_t2: 'Cybersecurity', srv_corp_6_t3: 'Cloud Infra',
+        srv_corp_6_title: 'Healthcare, IT & Enterprise Staffing',
+        srv_corp_6_desc: 'Licensed medical staff (SCFHS/DHA), cybersecurity analysts, cloud infrastructure engineers, and specialized ERP (Odoo/SAP) enterprise implementers.',
+        srv_corp_6_t1: 'SCFHS/DHA Licensed', srv_corp_6_t2: 'Cybersecurity', srv_corp_6_t3: 'Odoo/SAP ERP',
+
+        // Accelerated Mobilization SLAs
+        sla_badge: 'Accelerated Mobilization SLAs',
+        sla_title: 'Guaranteed Speed & Operational Velocity Across GCC',
+        sla_desc: 'We solve the #1 pain point of GCC enterprises: eliminating recruitment bottlenecks and bureaucratic visa delays through our rapid mobilization engine.',
+        sla_m1_title: 'Rapid Deployment',
+        sla_m1_desc: 'Candidate sourcing to flight arrival for urgent technical crews.',
+        sla_m2_title: 'Express Visa Stamping',
+        sla_m2_desc: 'Fast-track embassy submissions and governmental clearances.',
+        sla_m3_title: 'On-Time WPS Payroll',
+        sla_m3_desc: 'Automated wage compliance with zero delayed pay cycles.',
+        sla_m4_title: 'Technical FM SLAs',
+        sla_m4_desc: 'Rapid on-site building maintenance and MEP emergency teams.',
 
         // Vacancies & Filters
         vac_badge: 'Current Openings',
@@ -505,34 +518,47 @@ const I18N_DICTIONARY = {
         srv_tech_5_desc: 'ميكانيكا سيارات ومحركات ديزل، فنيي فحص كمبيوتر وتشخيص أعطال، مهندسي هيدروليك، وبائعي ومسؤولي قطع غيار.',
         srv_tech_5_t1: 'فحص وتشخيص', srv_tech_5_t2: 'أنظمة هيدروليك', srv_tech_5_t3: 'مبيعات قطع غيار',
 
-        srv_tech_6_title: 'إدارة المرافق وتشغيل المجمعات السكنية',
-        srv_tech_6_desc: 'حلول عمالة متكاملة لتشغيل المواقع، صيانة المنشآت والمرافق، مشرفي مخيمات عمالية، طواقم نظافة وضيافة وإعاشة.',
-        srv_tech_6_t1: 'صيانة مرافق', srv_tech_6_t2: 'إدارة مجمعات', srv_tech_6_t3: 'معايير HSE',
+        srv_tech_6_title: 'صيانة المباني والتشغيل الفني للمرافق والخدمات التكنيكال',
+        srv_tech_6_desc: 'تشغيل وصيانة متكاملة للمباني السكنية والتجارية ومجمعات العمال: صيانة وقائية للتكييف والكهرباء والسباكة، طوارئ فنية 24/7، ومعايير السلامة المهنية HSE.',
+        srv_tech_6_t1: 'صيانة مباني', srv_tech_6_t2: 'طوارئ فنية 24/7', srv_tech_6_t3: 'معايير HSE',
 
         // Division B: Corporate (Arabic)
-        srv_corp_1_title: 'المالية والمحاسبة وإدارة الحسابات',
-        srv_corp_1_desc: 'محاسبين قانونيين معتمدين (CPA/ACCA)، محللين ماليين، مدراء تدقيق، مسؤولي ERP، ومحاسبي مدفوعات ومقبوضات.',
-        srv_corp_1_t1: 'محاسب قانوني', srv_corp_1_t2: 'معايير IFRS', srv_corp_1_t3: 'أنظمة ERP',
+        srv_corp_1_title: 'خدمات التوظيف والتعيينات الدولية (Global Recruitment)',
+        srv_corp_1_desc: 'استقطاب سريع للكوادر التخصصية من ممرات التوظيف في آسيا، أوروبا، وإفريقيا مع اختبارات عملية مكثفة وتدقيق للمؤهلات والخبرات.',
+        srv_corp_1_t1: 'استقطاب دولي', srv_corp_1_t2: 'تعيينات سريعة', srv_corp_1_t3: 'فحص وتدقيق الكفاءات',
 
-        srv_corp_2_title: 'الهندسة وإدارة المشاريع (PMP)',
-        srv_corp_2_desc: 'مهندسين مدني، ميكانيكا، كهرباء وإنشاءات، مدراء مشاريع معتمدين PMP، ومهندسي تخطيط وجودة وسلامة مهنية QA/QC.',
-        srv_corp_2_t1: 'شهادة PMP', srv_corp_2_t2: 'هندسة مدنية/MEP', srv_corp_2_t3: 'مراقبة الجودة QA/QC',
+        srv_corp_2_title: 'خدمات تخليص وتأشيرات العمل والفيز (Visa Processing)',
+        srv_corp_2_desc: 'إصدار سريع لتصاريح العمل، الفحص الطبي GAMCA، تصديق وتوثيق المستندات من السفارات، وختم وتثبيت الإقامات الرسمية في السعودية والإمارات والخليج.',
+        srv_corp_2_t1: 'تأشيرات عمل فورية', srv_corp_2_t2: 'تصاريح إقامة', srv_corp_2_t3: 'فحص GAMCA وتوثيق',
 
-        srv_corp_3_title: 'الموارد البشرية والإدارة التنفيذية',
-        srv_corp_3_desc: 'مدراء موارد بشرية (HR)، مسؤولي استقطاب الكفاءات، مساعدين تنفيذيين، إداريين ثنائيي اللغة، ومنسقي سلاسل الإمداد.',
-        srv_corp_3_t1: 'مدير HR', srv_corp_3_t2: 'سلاسل الإمداد', srv_corp_3_t3: 'إدارة ثنائية اللغة',
+        srv_corp_3_title: 'خدمات إدارة الرواتب وحماية الأجور (Payroll & WPS)',
+        srv_corp_3_desc: 'أتمتة كشوف الرواتب الشهرية وتوافق كامل 100% مع نظام حماية الأجور (WPS)، الامتثال الضريبي، متابعة البدلات ومكافآت نهاية الخدمة.',
+        srv_corp_3_t1: 'نظام حماية الأجور WPS', srv_corp_3_t2: 'أتمتة الرواتب', srv_corp_3_t3: 'حسابات ومكافآت',
 
-        srv_corp_4_title: 'المبيعات والتسويق والتطوير التجاري',
-        srv_corp_4_desc: 'مدراء مبيعات شركات B2B، مسؤولي تطوير أعمال، مدراء تسويق ونمو رقمي، واستشاريي مبيعات سيارات ومعارض تجارية.',
-        srv_corp_4_t1: 'مبيعات B2B', srv_corp_4_t2: 'تطوير أعمال', srv_corp_4_t3: 'مبيعات المعارض',
+        srv_corp_4_title: 'إدارة واندماج الموظفين وبناء فرق العمل (Team Building)',
+        srv_corp_4_desc: 'برامج احترافية لرعاية واستقرار الموظفين، التدريب الثقافي وتهيئة بيئة العمل، ورش بناء فرق العمل، وحلول رفع الإنتاجية والولاء المؤسسي.',
+        srv_corp_4_t1: 'بناء فرق العمل', srv_corp_4_t2: 'استقرار الموظفين', srv_corp_4_t3: 'تطوير الإنتاجية',
 
-        srv_corp_5_title: 'الكوادر الطبية والرعاية الصحية',
-        srv_corp_5_desc: 'أطباء استشاريين وأخصائيين، ممرضين وممرضات مرخصين، فنيي مختبرات وأشعة، وإداريي مستشفيات حاصلين على تراخيص الهيئة.',
-        srv_corp_5_t1: 'ترخيص الهيئة الصحية', srv_corp_5_t2: 'تمريض معتمد', srv_corp_5_t3: 'تشخيص ومختبرات',
+        srv_corp_5_title: 'استقطاب الكفاءات والقيادات التنفيذية (Executive Search)',
+        srv_corp_5_desc: 'استقطاب سري ومباشر للرؤساء التنفيذيين (C-Suite)، أعضاء مجالس الإدارة، ومدراء المشاريع الكبرى للمطورين العقاريين والشركات القابضة.',
+        srv_corp_5_t1: 'قيادات تنفيذية', srv_corp_5_t2: 'استقطاب سري', srv_corp_5_t3: 'مدراء قطاعات',
 
-        srv_corp_6_title: 'تقنية المعلومات والأمن السيبراني',
-        srv_corp_6_desc: 'مطوري برمجيات وأنظمة، مهندسي شبكات وبنية تحتية، مسؤولي تطبيق أنظمة ERP (Odoo/SAP)، ومحللي أمن معلومات.',
-        srv_corp_6_t1: 'أنظمة Odoo/SAP', srv_corp_6_t2: 'أمن سيبراني', srv_corp_6_t3: 'سحابة وبنية تحتية',
+        srv_corp_6_title: 'الكوادر المتخصصة (الرعاية الصحية، التقنية، وأنظمة ERP)',
+        srv_corp_6_desc: 'توفير الكوادر الطبية المرخصة (SCFHS/DHA)، مهندسي الأمن السيبراني والشبكات، وخبراء تطبيق وتطوير أنظمة ERP (Odoo/SAP).',
+        srv_corp_6_t1: 'تراخيص صحية معتمدة', srv_corp_6_t2: 'أمن سيبراني', srv_corp_6_t3: 'أنظمة Odoo/SAP',
+
+        // Accelerated Mobilization SLAs (Arabic)
+        sla_badge: 'تسارع التعيينات والضمانات التشغيلية',
+        sla_title: 'سرعة قياسية وأعلى كفاءة في توفير الكوادر والتأشيرات بالخليج',
+        sla_desc: 'نقضي على أكبر تحديات الشركات في الخليج: تسريع إجراءات التعيينات، وتخطي عقبات استخراج الفيز، وأتمتة الرواتب والصيانة الفنية بدون أي تعطيل.',
+        sla_m1_title: 'سرعة الاستقدام',
+        sla_m1_desc: 'من اختيار المرشح حتى وصول المطار للكوادر الفنية العاجلة.',
+        sla_m2_title: 'تخليص سريع للفيز',
+        sla_m2_desc: 'تسريع موافقات السفارات وإجراءات تصاريح العمل الحكومية.',
+        sla_m3_title: 'رواتب بنظام WPS',
+        sla_m3_desc: 'أتمتة كشوف الأجور وتحويل الرواتب دون أي تأخير قانوني.',
+        sla_m4_title: 'استجابة صيانة المباني',
+        sla_m4_desc: 'طوارئ فنية وتشغيل مرافق وصيانة MEP معتمدة على مدار الساعة.',
 
         // Vacancies & Filters (Arabic)
         vac_badge: 'فرص عمل معتمدة',
