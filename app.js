@@ -10,9 +10,9 @@ const VACANCIES_DATA = [
         titleEn: 'Electrical Linemen (High Voltage)',
         titleAr: 'فنيين وكهربائيين خطوط هوائية (جهد عالي)',
         category: 'technical',
-        countryEn: 'Saudi Arabia & UAE',
-        countryAr: 'المملكة العربية السعودية والإمارات',
-        flag: '🇸🇦 🇦🇪',
+        countryEn: 'UAE (Dubai & Abu Dhabi Grid)',
+        countryAr: 'الإمارات (شبكات دبي وأبوظبي)',
+        flag: '🇦🇪',
         expEn: 'Min 5 Years Experience',
         expAr: 'خبرة لا تقل عن 5 سنوات',
         reqEn: '12th pass or Technical ITI/Diploma Certificate required',
@@ -27,15 +27,15 @@ const VACANCIES_DATA = [
         titleEn: 'Heavy Trailer & Transport Drivers',
         titleAr: 'سائقين نقل ثقيل وتريلات',
         category: 'driver',
-        countryEn: 'Saudi Arabia & GCC',
-        countryAr: 'المملكة العربية السعودية والخليج',
-        flag: '🇸🇦',
-        expEn: 'Min 5 Years GCC / Valid KSA License',
-        expAr: 'خبرة 5 سنوات مع رخصة قيادة سعودية أو خليجية سارية',
-        reqEn: 'Valid GCC Heavy License, Clean driving abstract',
-        reqAr: 'رخصة نقل ثقيل معتمدة وسجل قيادة نظيف',
-        salaryEn: 'SAR 2,800 - 3,500 + Trip Allowance',
-        salaryAr: '2,800 - 3,500 ريال + بدلات نقل ومسافات',
+        countryEn: 'United Arab Emirates (Dubai & Ports)',
+        countryAr: 'الإمارات العربية المتحدة (دبي والموانئ)',
+        flag: '🇦🇪',
+        expEn: 'Min 5 Years UAE / Valid UAE Heavy License',
+        expAr: 'خبرة 5 سنوات مع رخصة نقل ثقيل إماراتية سارية',
+        reqEn: 'Valid UAE Heavy License No. 4/6, Clean driving abstract',
+        reqAr: 'رخصة نقل ثقيل إماراتية معتمدة وسجل قيادة نظيف',
+        salaryEn: 'AED 3,200 - 4,200 + Trip Allowance',
+        salaryAr: '3,200 - 4,200 درهم + بدلات نقل ومسافات',
         perksEn: 'Free Accommodation & Transportation',
         perksAr: 'سكن ومواصلات مجانية'
     },
@@ -44,9 +44,9 @@ const VACANCIES_DATA = [
         titleEn: 'Auto Equipment & Diesel Technicians',
         titleAr: 'فنيي ميكانيكا ومعدات سيارات وديزل',
         category: 'technical',
-        countryEn: 'Saudi Arabia & UAE',
-        countryAr: 'السعودية والإمارات',
-        flag: '🇦🇪 🇸🇦',
+        countryEn: 'United Arab Emirates (Dubai Fleet)',
+        countryAr: 'الإمارات (ورش وأساطيل دبي)',
+        flag: '🇦🇪',
         expEn: 'Min 5 Years in Fleet / Workshop',
         expAr: 'خبرة لا تقل عن 5 سنوات في ورش أساطيل النقل',
         reqEn: 'Auto Mechanical Diploma, Diagnostic Tools Expertise',
@@ -61,11 +61,11 @@ const VACANCIES_DATA = [
         titleEn: 'Automotive Parts Sales Executives',
         titleAr: 'بائعي ومسؤولي مبيعات قطع غيار سيارات',
         category: 'corporate',
-        countryEn: 'UAE & Saudi Arabia',
-        countryAr: 'الإمارات والسعودية',
-        flag: '🇦🇪 🇸🇦',
-        expEn: 'Min 5 Years Auto Parts Sales',
-        expAr: 'خبرة 5 سنوات في مبيعات قطع الغيار والتوزيع',
+        countryEn: 'UAE (Dubai & Northern Emirates)',
+        countryAr: 'الإمارات (دبي والإمارات الشمالية)',
+        flag: '🇦🇪',
+        expEn: 'Min 5 Years Auto Parts Sales in UAE',
+        expAr: 'خبرة 5 سنوات في مبيعات قطع الغيار والتوزيع بالإمارات',
         reqEn: 'Graduation / Catalog & Inventory ERP proficiency',
         reqAr: 'مؤهل جامعي، معرفة بكتالوجات قطع الغيار وأنظمة ERP',
         salaryEn: 'Attractive Salary + Commission',
@@ -129,15 +129,15 @@ const VACANCIES_DATA = [
         titleEn: 'Civil Project Site Engineer',
         titleAr: 'مهندس موقع مدني وتنفيذي',
         category: 'corporate',
-        countryEn: 'Qatar & Saudi Arabia',
-        countryAr: 'قطر والسعودية',
-        flag: '🇶🇦 🇸🇦',
-        expEn: 'Min 6 Years in Infrastructure / Towers',
-        expAr: 'خبرة 6 سنوات في مشاريع البنية التحتية والأبراج',
-        reqEn: 'B.Sc. Civil Engineering, UPDA / MMUP Grade A/B',
-        reqAr: 'بكالوريوس هندسة مدنية، اعتماد رسمي',
-        salaryEn: 'QAR 8,000 - 12,000 Package',
-        salaryAr: '8,000 - 12,000 ريال قطري شامل',
+        countryEn: 'United Arab Emirates (Dubai & Abu Dhabi)',
+        countryAr: 'الإمارات (دبي وأبوظبي)',
+        flag: '🇦🇪',
+        expEn: 'Min 6 Years in UAE Infrastructure / Towers',
+        expAr: 'خبرة 6 سنوات في مشاريع الأبراج والبنية التحتية بالإمارات',
+        reqEn: 'B.Sc. Civil Engineering, SOE UAE registered',
+        reqAr: 'بكالوريوس هندسة مدنية، عضوية جمعية المهندسين الإماراتية',
+        salaryEn: 'AED 10,000 - 15,000 Package',
+        salaryAr: '10,000 - 15,000 درهم شامل',
         perksEn: 'Annual Ticket, Medical, Transport Allowance',
         perksAr: 'تذاكر سنوية وتأمين وبدل مواصلات'
     }
@@ -154,26 +154,26 @@ const GLOBAL_HUBS = [
         type: 'hq',
         badgeEn: '🌟 GLOBAL HEADQUARTERS & COMMAND CENTER',
         badgeAr: '🌟 المقر الرئيسي العالمي ومركز القيادة - دبي مارينا',
-        descEn: 'The central epicenter of Five Hills ecosystem. Orchestrating worldwide workforce mobilization, cross-border corporate recruitment, and GCC project operations from Dubai Marina Plaza.',
-        descAr: 'القلب النابض والمركز الرئيسي لمنظومة فايف هيلز في دبي مارينا بلازا. إدارة وتوجيه كافة رحلات استقدام الكوادر العالمية وتوزيعها على أضخم المشاريع في الإمارات والسعودية والخليج.',
+        descEn: 'The central epicenter of Five Hills ecosystem. Orchestrating worldwide workforce mobilization, cross-border corporate recruitment, and turnkey deployments across the United Arab Emirates from Dubai Marina Plaza.',
+        descAr: 'القلب النابض والمركز الرئيسي لمنظومة فايف هيلز في دبي مارينا بلازا. إدارة وتوجيه كافة رحلات استقدام الكوادر العالمية وتوزيعها على أضخم مشاريع وشركات دولة الإمارات العربية المتحدة.',
         tagsEn: ['Global HQ', 'Workforce Command', 'Direct Mobilization', 'Executive Hub'],
         tagsAr: ['المقر الرئيسي العالمي', 'إدارة القوى العاملة', 'توجيه الكوادر', 'إدارة المشاريع'],
         color: 0xcfa15c,
         isHQ: true
     },
     {
-        id: 'hub-ksa',
-        nameEn: 'Saudi Arabia (Riyadh & NEOM)',
-        nameAr: 'المملكة العربية السعودية (الرياض ونيوم)',
-        flag: '🇸🇦',
-        lat: 24.7136, lon: 46.6753,
+        id: 'hub-abudhabi',
+        nameEn: 'Abu Dhabi (Capital Energy & Infrastructure Hub)',
+        nameAr: 'أبوظبي (مشاريع الطاقة والبنية التحتية بالعاصمة)',
+        flag: '🇦🇪',
+        lat: 24.4539, lon: 54.3773,
         type: 'deployment',
-        badgeEn: '🇸🇦 MAJOR DEPLOYMENT DESTINATION',
-        badgeAr: '🇸🇦 وجهة التشغيل وتوريد العمالة الكبرى',
-        descEn: 'Massive enterprise deployments from Dubai HQ for giga-projects, high-voltage linemen, heavy trailer fleets, and industrial power plants.',
-        descAr: 'توريد وتشغيل آلاف الكوادر الفنية وسائقي النقل الثقيل وكهربائيين الخطوط للمشاريع الكبرى في الرياض والمنطقة الشرقية ونيوم.',
-        tagsEn: ['Power Linemen', 'Heavy Fleet', 'NEOM Projects', 'Civil Teams'],
-        tagsAr: ['كهربائيين خطوط', 'سائقين تريلات', 'مشاريع نيوم', 'طواقم مدنية'],
+        badgeEn: '🇦🇪 UAE CAPITAL ENERGY & INFRASTRUCTURE',
+        badgeAr: '🇦🇪 قطاعات الطاقة والمقاولات في العاصمة أبوظبي',
+        descEn: 'Strategic deployment corridor from Dubai HQ delivering certified high-voltage linemen, oil & gas shutdown crews, industrial welders, and civil engineering teams across Abu Dhabi & Al Dhafra.',
+        descAr: 'توريد وتشغيل فرق الصيانة الفنية ومهندسي الطاقة وفنيي خطوط الكهرباء والشبكات لمشاريع العاصمة والظفرة.',
+        tagsEn: ['Power Linemen', 'Oil & Gas Shutdown', 'MEP Teams', 'Infrastructure'],
+        tagsAr: ['طاقة وكهرباء', 'عمرات نفط وغاز', 'أعمال MEP', 'بنية تحتية'],
         color: 0x1b8243
     },
     {
@@ -237,103 +237,92 @@ const GLOBAL_HUBS = [
         color: 0xcfa15c
     },
     {
-        id: 'hub-qatar',
-        nameEn: 'State of Qatar (Doha)',
-        nameAr: 'دولة قطر (الدوحة)',
-        flag: '🇶🇦',
-        lat: 25.2854, lon: 51.5310,
+        id: 'hub-northern',
+        nameEn: 'Sharjah & Northern Emirates',
+        nameAr: 'الشارقة والإمارات الشمالية (المراكز اللوجستية والصناعية)',
+        flag: '🇦🇪',
+        lat: 25.3463, lon: 55.4209,
         type: 'deployment',
-        badgeEn: '🇶🇦 GCC DEPLOYMENT CORRIDOR',
-        badgeAr: '🇶🇦 مسار التشغيل في دولة قطر',
-        descEn: 'Infrastructure engineering, oil & gas welders, and commercial project managers mobilized from Dubai HQ.',
-        descAr: 'توجيه وإمداد المهندسين وفنيي محطات الطاقة والغاز لمشاريع الدوحة.',
-        tagsEn: ['Civil Engineers', '6G Welders', 'Plant Techs'],
-        tagsAr: ['مهندسين مدني', 'لحام 6G', 'فنيي مصانع'],
+        badgeEn: '🇦🇪 INDUSTRIAL & LOGISTICS DEPLOYMENT',
+        badgeAr: '🇦🇪 المناطق الصناعية واللوجستية بالإمارات الشمالية',
+        descEn: 'Mobilizing heavy transport drivers, fabrication technicians, warehouse crews, and facility maintenance teams across Sharjah, Ajman, and Ras Al Khaimah.',
+        descAr: 'توريد وتشغيل سائقي النقل الثقيل وطواقم المستودعات وفنيي التشغيل للمدن الصناعية والموانئ في الإمارات الشمالية.',
+        tagsEn: ['Heavy Transport', 'Fleet Technicians', 'Warehousing', 'FM Teams'],
+        tagsAr: ['نقل ثقيل', 'فنيي أساطيل', 'مستودعات', 'صيانة وتشغيل'],
         color: 0x0c3c66
     }
 ];
 
-// --- COUNTRY VISA & DOCUMENT STANDARDS ---
+// --- UAE VISA & DOCUMENT COMPLIANCE STANDARDS (EXCLUSIVELY FOR UAE) ---
 const COUNTRY_DOCS_DATA = {
-    ksa: {
-        nameEn: 'Kingdom of Saudi Arabia (KSA)',
-        nameAr: 'المملكة العربية السعودية',
-        flag: '🇸🇦',
-        photoEn: 'Color Photo: 4 x 6 cm | 6 Copies | Pure White Background',
-        photoAr: 'صور شخصية: مقاس 4 × 6 سم | 6 صور | خلفية بيضاء نقية بدون شوائب',
-        passportEn: 'Original Passport with minimum 6 months validity & minimum 2 blank visa pages.',
-        passportAr: 'جواز سفر أصلي ساري المفعول لمدة لا تقل عن 6 أشهر مع صفحتين فارغتين على الأقل.',
-        medicalEn: 'GAMCA / GCC Approved Medical Center Fitness Certificate & Bio-metric verification.',
-        medicalAr: 'شهادة فحص طبي معتمدة من مراكز جامكا (GAMCA) مع البصمة الحيوية (تساهيل).',
-        attestEn: 'Technical & Academic certificates must be attested by Saudi Embassy & Culture Bureau.',
-        attestAr: 'توثيق المؤهلات الفنية والشهادات الأكاديمية من الملحق الثقافي والسفارة السعودية.'
-    },
-    uae: {
-        nameEn: 'United Arab Emirates (UAE - Dubai HQ)',
-        nameAr: 'الإمارات العربية المتحدة (مقر دبي الرئيسي)',
+    employment: {
+        nameEn: 'Standard UAE Employment Visa (2-Year MoHRE Residency)',
+        nameAr: 'تأشيرة العمل والتوظيف العادية (إقامة سنتين معتمدة من وزارة الموارد البشرية)',
         flag: '🇦🇪',
-        photoEn: 'Color Photo: 4.3 x 5.5 cm | 12 Copies | Pure White Background',
-        photoAr: 'صور شخصية: مقاس 4.3 × 5.5 سم | 12 صورة | خلفية بيضاء نقية',
-        passportEn: 'Valid Passport with minimum 6 months validity.',
-        passportAr: 'جواز سفر ساري المفعول لمدة لا تقل عن 6 أشهر.',
-        medicalEn: 'UAE MOHAP / DHA pre-employment medical fitness certification.',
-        medicalAr: 'فحص طبي وقائي معتمد قبل السفر واختبارات الصحة المهنية.',
-        attestEn: 'Ministry of Foreign Affairs (MOFA) attestation for degrees & trade diplomas.',
-        attestAr: 'توثيق وزارة الخارجية والسفارة الإماراتية للمؤهلات والشهادات المهنية.'
+        badgeEn: 'MOHRE 2-YEAR WORK RESIDENCY',
+        badgeAr: 'إقامة عمل رسمية - سنتين',
+        photoEn: 'Color Photo: 4.3 x 5.5 cm (or 3.5 x 4.5 cm) | 8 Copies | Pure White Background | 80% Facial View | Neutral Expression.',
+        photoAr: 'صور شخصية: مقاس 4.3 × 5.5 سم (أو 3.5 × 4.5 سم) | 8 صور | خلفية بيضاء نقية تماماً بدون نظارات أو مؤثرات.',
+        passportEn: 'Original Passport with minimum 6 months validity & minimum 2 blank visa pages for UAE residency stamping.',
+        passportAr: 'جواز سفر أصلي ساري المفعول لمدة لا تقل عن 6 أشهر مع صفحتين فارغتين على الأقل لتثبيت الإقامة.',
+        medicalEn: 'UAE MOHAP / DHA pre-employment medical fitness certification (Blood test & Chest X-ray) + Emirates ID biometrics.',
+        medicalAr: 'فحص اللياقة الطبية المعتمد من وزارة الصحة أو هيئة الصحة بدبي (MOHAP/DHA) مع تبصيم الهوية الإماراتية.',
+        attestEn: 'Ministry of Foreign Affairs (MOFA) attestation for degrees, trade certificates, and MoHRE labor contract activation.',
+        attestAr: 'تصديق المؤهلات من وزارة الخارجية وسفارة دولة الإمارات، مع توثيق عقد العمل الإلكتروني وتسجيل نظام حماية الأجور WPS.'
     },
-    qatar: {
-        nameEn: 'State of Qatar',
-        nameAr: 'دولة قطر',
-        flag: '🇶🇦',
-        photoEn: 'Color Photo: Passport Size | 8 Copies | Any Clean Background',
-        photoAr: 'صور شخصية: حجم جواز السفر القياسي | 8 صور | أي خلفية واضحة',
-        passportEn: 'Passport validity over 6 months from entry date.',
-        passportAr: 'صلاحية جواز السفر أكثر من 6 أشهر من تاريخ الدخول.',
-        medicalEn: 'Qatar Visa Center (QVC) biometrics, contract signing, and medical testing.',
-        medicalAr: 'إجراءات مركز تأشيرات قطر (QVC): الفحص الطبي، توثيق العقد والبصمات الحيوية.',
-        attestEn: 'Educational degrees attested by Qatar Embassy & Chamber of Commerce.',
-        attestAr: 'تصديق المؤهلات من وزارة الخارجية وسفارة دولة قطر.'
+    mission: {
+        nameEn: 'Temporary Project & Mission Work Permit (Short-Term Deployment)',
+        nameAr: 'تصريح مهمة عمل وإنجاز مشاريع مؤقتة (توريد سريع للمشاريع الكبرى)',
+        flag: '⚡',
+        badgeEn: 'FAST-TRACK PROJECT DEPLOYMENT',
+        badgeAr: 'تصريح فوري لمشاريع الطاقة والمقاولات',
+        photoEn: 'High-resolution digital photo: Pure White Background | 300+ DPI | Clear facial biometric specifications.',
+        photoAr: 'صورة رقمية عالية الدقة: خلفية بيضاء نقية مطابقة لاشتراطات الهيئة الاتحادية للهوية والجنسية (ICP).',
+        passportEn: 'Valid passport with at least 6 months validity from expected UAE entry date.',
+        passportAr: 'جواز سفر ساري المفعول لأكثر من 6 أشهر من تاريخ الوصول المتوقع لدولة الإمارات.',
+        medicalEn: 'Certified preventive medical fitness report from origin country approved center.',
+        medicalAr: 'شهادة فحص طبي وقائي معتمد من المراكز الصحية المعتمدة قبل السفر لدخول مواقع العمل.',
+        attestEn: 'Mission permit issued directly under client project quota with accelerated governmental clearance.',
+        attestAr: 'إصدار تصريح مهمة العمل فورياً تحت كفالة المشروع المعتمد وبدون اشتراطات تصديق معقدة.'
     },
-    oman: {
-        nameEn: 'Sultanate of Oman',
-        nameAr: 'سلطنة عُمان',
-        flag: '🇴🇲',
-        photoEn: 'Color Photo: Passport Size | 24 Copies | Blue Background Required',
-        photoAr: 'صور شخصية: حجم جواز السفر | 24 صورة | خلفية زرقاء إلزامية',
-        passportEn: 'Passport validity over 6 months with clear bio page.',
-        passportAr: 'جواز سفر ساري لأكثر من 6 أشهر.',
-        medicalEn: 'GAMCA approved full physical fitness report.',
-        medicalAr: 'شهادة فحص طبي شامل من المراكز المعتمدة من دول مجلس التعاون.',
-        attestEn: 'Trade certificates stamped by Oman Embassy & relevant vocational bodies.',
-        attestAr: 'اعتماد الشهادات المهنية من السفارة العُمانية ووزارة العمل.'
+    skilled: {
+        nameEn: 'Technical Skilled Trades & Engineering Attestation',
+        nameAr: 'الكوادر المهنية الفنية والهندسية (اختبارات الكفاءة وتصديق المؤهلات)',
+        flag: '🛠️',
+        badgeEn: 'TRADE TESTED & CERTIFIED TALENT',
+        badgeAr: 'مهن معتمدة واختبارات ورش عملية',
+        photoEn: 'Color Photo: 4.3 x 5.5 cm | 8 Copies | Pure White Background | Studio Lighting.',
+        photoAr: 'صور شخصية: مقاس 4.3 × 5.5 سم | 8 صور | خلفية بيضاء وإضاءة استوديو واضحة.',
+        passportEn: 'Passport validity over 6 months with clear biometric page scans.',
+        passportAr: 'جواز سفر ساري المفعول لأكثر من 6 أشهر مع صور ضوئية ملونة عالية الدقة لصفحة البيانات.',
+        medicalEn: 'Comprehensive pre-departure medical fitness plus occupational safety health clearance in the UAE.',
+        medicalAr: 'فحص اللياقة البدنية والمهنية الشامل وفحوصات السلامة المهنية المعتمدة لمواقع العمل.',
+        attestEn: 'Trade Test certification + Technical diploma authenticated by UAE Embassy and MOFA UAE.',
+        attestAr: 'شهادة اجتياز اختبار المهنة العملي وتوثيق المؤهلات من سفارة الإمارات والخارجية الإماراتية.'
     },
-    kuwait: {
-        nameEn: 'State of Kuwait',
-        nameAr: 'دولة الكويت',
-        flag: '🇰🇼',
-        photoEn: 'Color Photo: Passport Size | 16 Copies | White Background',
-        photoAr: 'صور شخصية: حجم جواز السفر | 16 صورة | خلفية بيضاء',
-        passportEn: 'Passport validity min 6 months & Police Clearance Certificate (PCC).',
-        passportAr: 'جواز سفر ساري + صحيفة الحالة الجنائية (فيش وتشبيه خالي من السوابق).',
-        medicalEn: 'Kuwait Medical Board / GAMCA certification.',
-        medicalAr: 'فحص طبي شامل معتمد من جامكا والسفارة الكويتية.',
-        attestEn: 'PCC and academic certificates attested by Ministry of Foreign Affairs & Kuwait Embassy.',
-        attestAr: 'توثيق الصحيفة الجنائية والمؤهلات من الخارجية والسفارة الكويتية.'
-    },
-    bahrain: {
-        nameEn: 'Kingdom of Bahrain',
-        nameAr: 'مملكة البحرين',
-        flag: '🇧🇭',
-        photoEn: 'Color Photo: Passport Size | 16 Copies | White Background',
-        photoAr: 'صور شخصية: حجم جواز السفر | 16 صورة | خلفية بيضاء',
-        passportEn: 'Original Passport with at least 6 months validity.',
+    golden: {
+        nameEn: 'Executive, Healthcare & Golden Residency Pathway',
+        nameAr: 'الكوادر التنفيذية والطبية والإقامة الخضراء / الذهبية',
+        flag: '🌟',
+        badgeEn: 'SPECIALIZED TALENT & EXECUTIVE VISAS',
+        badgeAr: 'مسار الكفاءات الاستثنائية والقيادات',
+        photoEn: 'Digital Passport Size Photo: Pure White Background | Compliant with UAE ICP Smart Services.',
+        photoAr: 'صورة رقمية حديثة مطابقة للمواصفات الذكية للهيئة الاتحادية للهوية والجنسية.',
+        passportEn: 'Original Passport with minimum 6 months validity.',
         passportAr: 'جواز سفر أصلي صالح لمدة 6 أشهر على الأقل.',
-        medicalEn: 'LMRA compliant GAMCA medical clearance.',
-        medicalAr: 'فحص طبي معتمد متوافق مع هيئة تنظيم سوق العمل البحرينية (LMRA).',
-        attestEn: 'Certificates verified by Bahrain Embassy and Chamber.',
-        attestAr: 'تصديق المؤهلات والخبرات من سفارة مملكة البحرين.'
+        medicalEn: 'VIP express DHA / MOHAP Medical Examination and immediate VIP Emirates ID bio-metric appointment.',
+        medicalAr: 'فحص طبي لكبار الشخصيات (VIP) وتبصيم فوري لإصدار بطاقة الهوية الإماراتية.',
+        attestEn: 'University degree equivalency from UAE Ministry of Education + Professional license (DHA/SOE) & Executive contract.',
+        attestAr: 'معادلة المؤهل الجامعي من وزارة التعليم العالي الإماراتية، ترخيص المهنة (DHA / SOE)، وعقود التوظيف العليا.'
     }
 };
+// Aliases for compatibility
+COUNTRY_DOCS_DATA.uae = COUNTRY_DOCS_DATA.employment;
+COUNTRY_DOCS_DATA.ksa = COUNTRY_DOCS_DATA.mission;
+COUNTRY_DOCS_DATA.qatar = COUNTRY_DOCS_DATA.skilled;
+COUNTRY_DOCS_DATA.oman = COUNTRY_DOCS_DATA.golden;
+COUNTRY_DOCS_DATA.kuwait = COUNTRY_DOCS_DATA.employment;
+COUNTRY_DOCS_DATA.bahrain = COUNTRY_DOCS_DATA.skilled;
 
 // --- BILINGUAL DICTIONARY ---
 const I18N_DICTIONARY = {
@@ -345,24 +334,24 @@ const I18N_DICTIONARY = {
         nav_industries: 'Industries',
         nav_visas: 'Visa & Docs',
         btn_hire_workforce: 'Hire Workforce',
-        hero_badge: 'Global HQ: Dubai Marina &bull; Worldwide Mobilization',
-        hero_title: 'From Dubai to the World: <span class="gold-gradient-text">Unlocking Global Elite Workforce</span>',
-        hero_desc: 'Headquartered in Dubai, UAE — Five Hills connects elite technical manpower and corporate leadership from worldwide sourcing hubs directly to UAE, Saudi Arabia, and the Gulf region with 4+ decades of proven mastery.',
+        hero_badge: 'Exclusive UAE Operations &bull; Headquartered in Dubai Marina Plaza',
+        hero_title: 'From Dubai to All Emirates: <span class="gold-gradient-text">Unlocking Global Elite Workforce for the UAE</span>',
+        hero_desc: 'Headquartered in Dubai Marina Plaza, UAE — Five Hills connects elite technical manpower and corporate leadership from worldwide sourcing hubs directly to enterprises and megaprojects across the United Arab Emirates with 4+ decades of proven mastery.',
         hero_cta_hire: 'Request Manpower Supply',
         hero_cta_vacancies: 'Explore Open Vacancies',
         stat_1: 'Professionals Deployed',
         stat_2: 'Client Retention Rate',
         stat_3: 'Global Sourcing Corridors',
-        stat_4: 'Dubai Marina Plaza',
+        stat_4: 'Dubai Marina Plaza HQ',
         div_badge: 'Specialized Operations',
         div_title: 'Tailored Workforce Architecture',
-        div_desc: 'Two autonomous, dedicated business divisions built to provide surgical precision for both industrial field operations and corporate boardroom talent.',
+        div_desc: 'Two autonomous, dedicated business divisions built to provide surgical precision for both industrial field operations and corporate boardroom talent in the UAE.',
         tab_technical: 'Division A: Technical & Manpower Supply',
         tab_corporate: 'Division B: Corporate & HR Recruitment',
         
         // Division A: Technical
         srv_tech_1_title: 'Electrical & Power Linemen',
-        srv_tech_1_desc: 'High-voltage transmission technicians, certified linemen, industrial electricians, and substation maintenance crews ready for immediate mobilization.',
+        srv_tech_1_desc: 'High-voltage transmission technicians, certified linemen, industrial electricians, and substation maintenance crews ready for immediate mobilization across the UAE.',
         srv_tech_1_t1: 'Linemen', srv_tech_1_t2: 'HV / LV Grid', srv_tech_1_t3: 'Trade Certified',
         
         srv_tech_2_title: 'Mechanical & Piping Specialists',
@@ -370,11 +359,11 @@ const I18N_DICTIONARY = {
         srv_tech_2_t1: 'Plumbing', srv_tech_2_t2: '6G Welding', srv_tech_2_t3: 'HVAC Plant',
         
         srv_tech_3_title: 'Heavy Drivers & Equipment Operators',
-        srv_tech_3_desc: 'Licensed GCC heavy trailer drivers, crane operators, forklift drivers, and earth-moving machinery specialists with validated driving records.',
-        srv_tech_3_t1: 'Heavy Trailer', srv_tech_3_t2: 'Tower Crane', srv_tech_3_t3: 'GCC Licensed',
+        srv_tech_3_desc: 'Licensed UAE heavy trailer drivers, crane operators, forklift drivers, and earth-moving machinery specialists with validated driving records.',
+        srv_tech_3_t1: 'Heavy Trailer', srv_tech_3_t2: 'Tower Crane', srv_tech_3_t3: 'UAE Licensed',
         
         srv_tech_4_title: 'Civil Construction & Finishing',
-        srv_tech_4_desc: 'Carpenters, steel fixers, masons, gypsum board technicians, and scaffolding crews for large-scale infrastructure projects.',
+        srv_tech_4_desc: 'Carpenters, steel fixers, masons, gypsum board technicians, and scaffolding crews for large-scale infrastructure projects across Dubai and Abu Dhabi.',
         srv_tech_4_t1: 'Carpentry', srv_tech_4_t2: 'Steel Fixing', srv_tech_4_t3: 'Scaffolding',
         
         srv_tech_5_title: 'Auto & Heavy Equipment Technicians',
@@ -382,51 +371,51 @@ const I18N_DICTIONARY = {
         srv_tech_5_t1: 'Auto Diagnostic', srv_tech_5_t2: 'Hydraulics', srv_tech_5_t3: 'Parts Sales',
         
         srv_tech_6_title: 'Building Maintenance & Technical Facility Operations',
-        srv_tech_6_desc: 'Comprehensive commercial & residential building operations, preventive HVAC maintenance, MEP repairs, camp management, and 24/7 technical callout teams.',
+        srv_tech_6_desc: 'Comprehensive commercial & residential building operations, preventive HVAC maintenance, MEP repairs, camp management, and 24/7 technical callout teams in the UAE.',
         srv_tech_6_t1: 'Building Maintenance', srv_tech_6_t2: '24/7 Technical MEP', srv_tech_6_t3: 'HSE Certified',
 
         // Division B: Corporate & Professional Solutions
         srv_corp_1_title: 'Global Recruitment Services',
-        srv_corp_1_desc: 'Rapid international talent acquisition across Asia, Europe, Africa, and Arab corridors with multi-stage technical testing and credential authentication.',
+        srv_corp_1_desc: 'Rapid international talent acquisition across Asia, Europe, Africa, and Arab corridors delivering verified professionals straight to the UAE.',
         srv_corp_1_t1: 'Global Sourcing', srv_corp_1_t2: 'Fast-Track Hiring', srv_corp_1_t3: 'Rigorous Vetting',
         
         srv_corp_2_title: 'Visa Processing Services',
-        srv_corp_2_desc: 'End-to-end work visa issuance, GAMCA medical clearances, embassy document attestation, and rapid residency permit endorsements across UAE, KSA, and GCC.',
-        srv_corp_2_t1: 'Express Visas', srv_corp_2_t2: 'Work Permits', srv_corp_2_t3: 'GAMCA & Stamping',
+        srv_corp_2_desc: 'End-to-end UAE work visa issuance, MoHRE contract approvals, medical fitness clearances, embassy document attestation, and rapid residency permit endorsements.',
+        srv_corp_2_t1: 'Express Visas', srv_corp_2_t2: 'Work Permits', srv_corp_2_t3: 'MoHRE & Stamping',
         
         srv_corp_3_title: 'Payroll Services & WPS Compliance',
-        srv_corp_3_desc: 'Automated multi-currency payroll processing, 100% Wage Protection System (WPS) compliance, tax filings, overtime administration, and gratuity calculations.',
+        srv_corp_3_desc: 'Automated multi-currency payroll processing, 100% UAE Wage Protection System (WPS) compliance, tax filings, overtime administration, and gratuity calculations.',
         srv_corp_3_t1: 'WPS Compliance', srv_corp_3_t2: 'Automated Payroll', srv_corp_3_t3: 'Gratuity & Tax',
         
         srv_corp_4_title: 'Employee Engagement & Team Building',
-        srv_corp_4_desc: 'Structured employee welfare, cross-cultural onboarding, productivity coaching, conflict mitigation, and team development workshops for maximum retention.',
+        srv_corp_4_desc: 'Structured employee welfare, cross-cultural onboarding, productivity coaching, conflict mitigation, and team development workshops for maximum retention in the UAE.',
         srv_corp_4_t1: 'Team Building', srv_corp_4_t2: 'Talent Retention', srv_corp_4_t3: 'Productivity & Culture',
         
         srv_corp_5_title: 'Executive Search & Headhunting',
-        srv_corp_5_desc: 'Confidential C-suite recruitment, board advisors, general managers, and project directors for GCC conglomerates, mega-developers, and enterprises.',
+        srv_corp_5_desc: 'Confidential C-suite recruitment, board advisors, general managers, and project directors for UAE conglomerates, mega-developers, and enterprises.',
         srv_corp_5_t1: 'C-Suite Search', srv_corp_5_t2: 'Confidential', srv_corp_5_t3: 'P&L Leaders',
         
         srv_corp_6_title: 'Healthcare, IT & Enterprise Staffing',
-        srv_corp_6_desc: 'Licensed medical staff (SCFHS/DHA), cybersecurity analysts, cloud infrastructure engineers, and specialized ERP (Odoo/SAP) enterprise implementers.',
-        srv_corp_6_t1: 'SCFHS/DHA Licensed', srv_corp_6_t2: 'Cybersecurity', srv_corp_6_t3: 'Odoo/SAP ERP',
+        srv_corp_6_desc: 'Licensed medical staff (DHA/MOHAP/DoH), cybersecurity analysts, cloud infrastructure engineers, and specialized ERP (Odoo/SAP) enterprise implementers in the UAE.',
+        srv_corp_6_t1: 'DHA/MOHAP Licensed', srv_corp_6_t2: 'Cybersecurity', srv_corp_6_t3: 'Odoo/SAP ERP',
 
         // Accelerated Mobilization SLAs
         sla_badge: 'Accelerated Mobilization SLAs',
-        sla_title: 'Guaranteed Speed & Operational Velocity Across GCC',
-        sla_desc: 'We solve the #1 pain point of GCC enterprises: eliminating recruitment bottlenecks and bureaucratic visa delays through our rapid mobilization engine.',
+        sla_title: 'Guaranteed Speed & Operational Velocity Across the UAE',
+        sla_desc: 'We solve the #1 pain point of UAE enterprises: eliminating recruitment bottlenecks and bureaucratic visa delays through our rapid mobilization engine.',
         sla_m1_title: 'Rapid Deployment',
         sla_m1_desc: 'Candidate sourcing to flight arrival for urgent technical crews.',
         sla_m2_title: 'Express Visa Stamping',
-        sla_m2_desc: 'Fast-track embassy submissions and governmental clearances.',
+        sla_m2_desc: 'Fast-track UAE entry permits and governmental clearances.',
         sla_m3_title: 'On-Time WPS Payroll',
-        sla_m3_desc: 'Automated wage compliance with zero delayed pay cycles.',
+        sla_m3_desc: 'Automated UAE wage compliance with zero delayed pay cycles.',
         sla_m4_title: 'Technical FM SLAs',
         sla_m4_desc: 'Rapid on-site building maintenance and MEP emergency teams.',
 
         // Vacancies & Filters
         vac_badge: 'Current Openings',
-        vac_title: 'Verified Career Vacancies',
-        vac_desc: 'Explore actively recruiting positions with leading enterprise clients across UAE, Saudi Arabia, and the Gulf Region. Free visa, accommodation, and transportation provided.',
+        vac_title: 'Verified Career Vacancies in UAE',
+        vac_desc: 'Explore actively recruiting positions with leading enterprise clients across Dubai, Abu Dhabi, and the UAE. Free visa, accommodation, and transportation provided.',
         search_placeholder: 'Search by job title, skill, or keyword...',
         filter_all: 'All Roles',
         filter_technical: 'Technical / Field',
@@ -436,42 +425,46 @@ const I18N_DICTIONARY = {
         // 5-Step Process
         proc_badge: 'Deployment Lifecycle',
         proc_title: 'The 5-Step Mobilization Protocol',
-        proc_desc: 'A rigorous, transparent recruitment and deployment framework ensuring 100% compliance, technical verification, and on-schedule onboarding.',
+        proc_desc: 'A rigorous, transparent recruitment and deployment framework ensuring 100% compliance, technical verification, and on-schedule onboarding into the UAE.',
         step_1_title: 'Demand Analysis',
-        step_1_desc: 'Receiving detailed client manpower specs, salary structures, job descriptions, and project deployment milestones.',
+        step_1_desc: 'Receiving detailed client manpower specs, salary structures, job descriptions, and UAE project deployment milestones.',
         step_2_title: 'Sourcing & Pre-screening',
         step_2_desc: 'Tapping our global talent reservoir in India, Egypt, and Asia to shortlist top-tier qualified candidates.',
         step_3_title: 'Trade Testing & Vetting',
         step_3_desc: 'Hands-on practical workshop trade tests and rigorous technical interviews conducted by certified evaluators.',
         step_4_title: 'Medical & Visa Stamping',
-        step_4_desc: 'GAMCA medical clearances, background checks, document attestation, and rapid embassy visa endorsement.',
+        step_4_desc: 'Medical clearances, background checks, document attestation, and rapid UAE entry permit endorsement.',
         step_5_title: 'Flight & Onboarding',
-        step_5_desc: 'Ticketing, pre-departure orientation, GCC airport reception, camp settling, and immediate site integration.',
+        step_5_desc: 'Ticketing, pre-departure orientation, UAE airport reception, camp settling, and immediate site integration.',
 
         // Industries
         ind_badge: 'Industry Expertise',
-        ind_title: 'Powering Crucial Sectors Globally',
-        ind_desc: 'Delivering tailored manpower solutions for complex megaprojects and enterprise industries.',
-        ind_1_title: 'Oil & Gas / Petrochemicals', ind_1_desc: 'Refinery operators, pipeline welders, safety engineers, and maintenance shutdowns.',
-        ind_2_title: 'Mega Infrastructure & Civil', ind_2_desc: 'High-rise developments, bridge construction, metro projects, and earth-moving teams.',
+        ind_title: 'Powering Crucial Sectors in the UAE',
+        ind_desc: 'Delivering tailored manpower solutions for complex megaprojects and enterprise industries across the Emirates.',
+        ind_1_title: 'Oil & Gas / Petrochemicals', ind_1_desc: 'Refinery operators, pipeline welders, safety engineers, and maintenance shutdowns in Abu Dhabi.',
+        ind_2_title: 'Mega Infrastructure & Civil', ind_2_desc: 'High-rise developments, bridge construction, metro projects, and earth-moving teams in Dubai & UAE.',
         ind_3_title: 'Electro-Mechanical (MEP)', ind_3_desc: 'Substation specialists, commercial electrical distribution, and industrial plumbing.',
-        ind_4_title: 'Healthcare & Medical Centers', ind_4_desc: 'Specialized nurses, doctors, allied health workers, and clinical technicians.',
+        ind_4_title: 'Healthcare & Medical Centers', ind_4_desc: 'Specialized nurses, doctors, allied health workers, and clinical technicians holding DHA & MOHAP licenses.',
         ind_5_title: 'Processing Plants & Manufacturing', ind_5_desc: 'Assembly line operators, CNC machinists, quality control inspectors, and plant supervisors.',
         ind_6_title: 'Hospitality, Catering & Facilities', ind_6_desc: 'Chefs, hotel operations, housekeeping squads, and facility maintenance teams.',
-        ind_7_title: 'Logistics, Fleet & Warehousing', ind_7_desc: 'Heavy transport drivers, supply chain managers, warehouse dispatchers, and forklift crews.',
+        ind_7_title: 'Logistics, Fleet & Warehousing', ind_7_desc: 'Heavy transport drivers, supply chain managers, warehouse dispatchers, and forklift crews in Jebel Ali & UAE.',
         ind_8_title: 'Finance & Corporate Governance', ind_8_desc: 'Executive leadership, audit managers, ERP accounting leads, and administrative officers.',
 
         // Visa Hub & Footer
-        visa_badge: 'Document Compliance',
-        visa_title: 'Country-Specific Visa & Photo Guide',
-        visa_desc: 'Accurate, up-to-date embassy documentation standards and photograph dimensions for seamless visa processing.',
-        footer_about: 'Headquartered in Dubai Marina Plaza, UAE. Part of the Five Hills ecosystem, mobilizing world-class workforce from global sourcing corridors to the GCC.',
+        visa_badge: 'UAE MoHRE & ICP Standards',
+        visa_title: 'UAE Work Visa & Compliance Standards',
+        visa_desc: 'Official Ministry of Human Resources (MoHRE), ICP & Embassy documentation, photograph dimensions, and medical clearances for deploying workforce exclusively across the United Arab Emirates.',
+        visa_tab_emp: '🇦🇪 Standard Employment Visa',
+        visa_tab_mission: '⚡ Project & Mission Permit',
+        visa_tab_skilled: '🛠️ Technical Skilled Trades',
+        visa_tab_golden: '🌟 Executive & Golden Visa',
+        footer_about: 'Headquartered in Dubai Marina Plaza, UAE. Part of the Five Hills ecosystem, mobilizing world-class workforce exclusively across the United Arab Emirates.',
         footer_divisions: 'Divisions & Services',
         footer_link_tech: 'Technical & Field Crew',
         footer_link_corp: 'Corporate Recruitment',
         footer_link_heavy: 'Heavy Machinery & Drivers',
         footer_link_fm: 'Building & FM Maintenance',
-        footer_destinations: 'GCC Hubs',
+        footer_destinations: 'UAE Operations',
         footer_contact: 'Contact & Inquiries'
     },
     ar: {
@@ -482,24 +475,24 @@ const I18N_DICTIONARY = {
         nav_industries: 'القطاعات',
         nav_visas: 'التأشيرات والمستندات',
         btn_hire_workforce: 'طلب عمالة للشركات',
-        hero_badge: 'المقر الرئيسي: دبي مارينا &bull; استقدام وتوجيه عالمي',
-        hero_title: 'من دبي إلى العالم: <span class="gold-gradient-text">استقدام وتشغيل أفضل الكوادر العالمية</span>',
-        hero_desc: 'من مقرنا الرئيسي في دبي، الإمارات العربية المتحدة — تقود فايف هيلز حركة استقدام وتوريد العمالة الفنية والكوادر المهنية من كافة قارات العالم وربطها بمشاريع الإمارات والسعودية والخليج بخبرة عريقة تتجاوز 4 عقود.',
+        hero_badge: 'عمليات حصرية داخل دولة الإمارات &bull; المقر الرئيسي: دبي مارينا بلازا',
+        hero_title: 'من دبي لكافة إمارات الدولة: <span class="gold-gradient-text">توريد وتشغيل نخبة الكوادر العالمية في الإمارات</span>',
+        hero_desc: 'من مقرنا الرئيسي في دبي مارينا بلازا، الإمارات العربية المتحدة — نوفر ونورد الكوادر الفنية المتخصصة والقيادات المؤسسية من ممرات التوظيف العالمية مباشرة لكبرى شركات ومشاريع دولة الإمارات العربية المتحدة بخبرة عريقة تتجاوز 4 عقود.',
         hero_cta_hire: 'طلب توريد كوادر وعمالة',
         hero_cta_vacancies: 'تصفح الوظائف المتاحة',
         stat_1: 'كادر ومهني تم توظيفهم',
         stat_2: 'نسبة رضا واحتفاظ العملاء',
         stat_3: 'مسارات استقدام ورحلات دولية',
-        stat_4: 'دبي مارينا بلازا',
+        stat_4: 'مقر دبي مارينا بلازا',
         div_badge: 'الهيكلة التخصصية',
         div_title: 'أقسام عمل مستقلة ومتخصصة',
-        div_desc: 'قسمان مستقلان تماماً لتقديم أعلى درجات الكفاءة: قسم مخصص لتوريد وتشغيل العمالة الفنية والميدانية، وقسم مخصص للتوظيف المهني والكوادر المؤسسية.',
+        div_desc: 'قسمان مستقلان تماماً لتقديم أعلى درجات الكفاءة: قسم مخصص لتوريد وتشغيل العمالة الفنية والميدانية، وقسم مخصص للتوظيف المهني والكوادر المؤسسية في الإمارات.',
         tab_technical: 'القسم الأول: الخدمات الفنية وتوريد العمالة',
         tab_corporate: 'القسم الثاني: التوظيف المهني والمؤسسي',
         
         // Division A: Technical (Arabic)
         srv_tech_1_title: 'فنيين وكهربائيين خطوط هوائية (جهد عالي)',
-        srv_tech_1_desc: 'فنيي شبكات النقل والجهد العالي، كهربائيين صناعيين معتمدين، طواقم صيانة محطات التحويل جاهزون للتشغيل الفوري بالمشاريع.',
+        srv_tech_1_desc: 'فنيي شبكات النقل والجهد العالي، كهربائيين صناعيين معتمدين، طواقم صيانة محطات التحويل جاهزون للتشغيل الفوري بكافة إمارات الدولة.',
         srv_tech_1_t1: 'خطوط هوائية', srv_tech_1_t2: 'جهد عالي ومتوسط', srv_tech_1_t3: 'مهن معتمدة',
 
         srv_tech_2_title: 'فنيي ميكانيكا وسباكة وشبكات أنابيب',
@@ -507,63 +500,63 @@ const I18N_DICTIONARY = {
         srv_tech_2_t1: 'سباكة ومواسير', srv_tech_2_t2: 'لحام 6G', srv_tech_2_t3: 'تكييف مركزي',
 
         srv_tech_3_title: 'سائقين نقل ثقيل ومشغلي معدات',
-        srv_tech_3_desc: 'سائقين تريلات ونقل ثقيل برخص خليجية سارية، مشغلي رافعات برجية، سائقي شوكة (فوركلفت) ومعدات الحفر مع سجل قيادة موثق.',
-        srv_tech_3_t1: 'تريلات ونقل ثقيل', srv_tech_3_t2: 'رافعات برجية', srv_tech_3_t3: 'رخص خليجية',
+        srv_tech_3_desc: 'سائقين تريلات ونقل ثقيل برخص إماراتية سارية (فئة 4/6)، مشغلي رافعات برجية، سائقي شوكة (فوركلفت) ومعدات الحفر مع سجل قيادة موثق.',
+        srv_tech_3_t1: 'تريلات ونقل ثقيل', srv_tech_3_t2: 'رافعات برجية', srv_tech_3_t3: 'رخص إماراتية',
 
         srv_tech_4_title: 'أعمال الإنشاءات والنجارة والتشطيب',
-        srv_tech_4_desc: 'نجارين مسلح وتشطيب، حدادين خرسانة، بناءين، فنيي ألواح جبس وديكور، وطواقم السقالات الإنشائية للمشاريع الضخمة.',
+        srv_tech_4_desc: 'نجارين مسلح وتشطيب، حدادين خرسانة، بناءين، فنيي ألواح جبس وديكور، وطواقم السقالات الإنشائية للمشاريع الضخمة في دبي وأبوظبي.',
         srv_tech_4_t1: 'نجارة مسلحة', srv_tech_4_t2: 'حدادة مسلحة', srv_tech_4_t3: 'سقالات وأمان',
 
         srv_tech_5_title: 'فنيي ميكانيكا سيارات ومعدات ديزل',
-        srv_tech_5_desc: 'ميكانيكا سيارات ومحركات ديزل، فنيي فحص كمبيوتر وتشخيص أعطال، مهندسي هيدروليك، وبائعي ومسؤولي قطع غيار.',
+        srv_tech_5_desc: 'ميكانيكا سيارات ومحركات ديزل، فنيي فحص كمبيوتر وتشخيص أعطال، مهندسي هيدروليك، وبائعي ومسؤولي قطع غيار بالأساطيل.',
         srv_tech_5_t1: 'فحص وتشخيص', srv_tech_5_t2: 'أنظمة هيدروليك', srv_tech_5_t3: 'مبيعات قطع غيار',
 
         srv_tech_6_title: 'صيانة المباني والتشغيل الفني للمرافق والخدمات التكنيكال',
-        srv_tech_6_desc: 'تشغيل وصيانة متكاملة للمباني السكنية والتجارية ومجمعات العمال: صيانة وقائية للتكييف والكهرباء والسباكة، طوارئ فنية 24/7، ومعايير السلامة المهنية HSE.',
+        srv_tech_6_desc: 'تشغيل وصيانة متكاملة للمباني السكنية والتجارية ومجمعات العمال: صيانة وقائية للتكييف والكهرباء والسباكة، طوارئ فنية 24/7، ومعايير السلامة المهنية HSE بالإمارات.',
         srv_tech_6_t1: 'صيانة مباني', srv_tech_6_t2: 'طوارئ فنية 24/7', srv_tech_6_t3: 'معايير HSE',
 
         // Division B: Corporate (Arabic)
         srv_corp_1_title: 'خدمات التوظيف والتعيينات الدولية (Global Recruitment)',
-        srv_corp_1_desc: 'استقطاب سريع للكوادر التخصصية من ممرات التوظيف في آسيا، أوروبا، وإفريقيا مع اختبارات عملية مكثفة وتدقيق للمؤهلات والخبرات.',
+        srv_corp_1_desc: 'استقطاب سريع للكوادر التخصصية من ممرات التوظيف في آسيا، أوروبا، وإفريقيا وتوريدهم مباشرة لكبرى شركات دولة الإمارات مع اختبارات عملية وتدقيق.',
         srv_corp_1_t1: 'استقطاب دولي', srv_corp_1_t2: 'تعيينات سريعة', srv_corp_1_t3: 'فحص وتدقيق الكفاءات',
 
         srv_corp_2_title: 'خدمات تخليص وتأشيرات العمل والفيز (Visa Processing)',
-        srv_corp_2_desc: 'إصدار سريع لتصاريح العمل، الفحص الطبي GAMCA، تصديق وتوثيق المستندات من السفارات، وختم وتثبيت الإقامات الرسمية في السعودية والإمارات والخليج.',
-        srv_corp_2_t1: 'تأشيرات عمل فورية', srv_corp_2_t2: 'تصاريح إقامة', srv_corp_2_t3: 'فحص GAMCA وتوثيق',
+        srv_corp_2_desc: 'إصدار سريع لتصاريح العمل من وزارة الموارد البشرية (MoHRE)، الفحص الطبي، توثيق المستندات من الخارجية، وختم وتثبيت الإقامات الرسمية بالإمارات.',
+        srv_corp_2_t1: 'تأشيرات عمل فورية', srv_corp_2_t2: 'تصاريح إقامة', srv_corp_2_t3: 'اعتماد MoHRE وتوثيق',
 
         srv_corp_3_title: 'خدمات إدارة الرواتب وحماية الأجور (Payroll & WPS)',
-        srv_corp_3_desc: 'أتمتة كشوف الرواتب الشهرية وتوافق كامل 100% مع نظام حماية الأجور (WPS)، الامتثال الضريبي، متابعة البدلات ومكافآت نهاية الخدمة.',
+        srv_corp_3_desc: 'أتمتة كشوف الرواتب الشهرية وتوافق كامل 100% مع نظام حماية الأجور الإماراتي (WPS)، الامتثال الضريبي، متابعة البدلات ومكافآت نهاية الخدمة.',
         srv_corp_3_t1: 'نظام حماية الأجور WPS', srv_corp_3_t2: 'أتمتة الرواتب', srv_corp_3_t3: 'حسابات ومكافآت',
 
         srv_corp_4_title: 'إدارة واندماج الموظفين وبناء فرق العمل (Team Building)',
-        srv_corp_4_desc: 'برامج احترافية لرعاية واستقرار الموظفين، التدريب الثقافي وتهيئة بيئة العمل، ورش بناء فرق العمل، وحلول رفع الإنتاجية والولاء المؤسسي.',
+        srv_corp_4_desc: 'برامج احترافية لرعاية واستقرار الموظفين، التدريب الثقافي وتهيئة بيئة العمل، ورش بناء فرق العمل، وحلول رفع الإنتاجية والولاء المؤسسي بالإمارات.',
         srv_corp_4_t1: 'بناء فرق العمل', srv_corp_4_t2: 'استقرار الموظفين', srv_corp_4_t3: 'تطوير الإنتاجية',
 
         srv_corp_5_title: 'استقطاب الكفاءات والقيادات التنفيذية (Executive Search)',
-        srv_corp_5_desc: 'استقطاب سري ومباشر للرؤساء التنفيذيين (C-Suite)، أعضاء مجالس الإدارة، ومدراء المشاريع الكبرى للمطورين العقاريين والشركات القابضة.',
+        srv_corp_5_desc: 'استقطاب سري ومباشر للرؤساء التنفيذيين (C-Suite)، أعضاء مجالس الإدارة، ومدراء المشاريع الكبرى للشركات والمطورين في دولة الإمارات.',
         srv_corp_5_t1: 'قيادات تنفيذية', srv_corp_5_t2: 'استقطاب سري', srv_corp_5_t3: 'مدراء قطاعات',
 
         srv_corp_6_title: 'الكوادر المتخصصة (الرعاية الصحية، التقنية، وأنظمة ERP)',
-        srv_corp_6_desc: 'توفير الكوادر الطبية المرخصة (SCFHS/DHA)، مهندسي الأمن السيبراني والشبكات، وخبراء تطبيق وتطوير أنظمة ERP (Odoo/SAP).',
+        srv_corp_6_desc: 'توفير الكوادر الطبية المرخصة (DHA/MOHAP/DoH)، مهندسي الأمن السيبراني والشبكات، وخبراء تطبيق وتطوير أنظمة ERP (Odoo/SAP).',
         srv_corp_6_t1: 'تراخيص صحية معتمدة', srv_corp_6_t2: 'أمن سيبراني', srv_corp_6_t3: 'أنظمة Odoo/SAP',
 
         // Accelerated Mobilization SLAs (Arabic)
         sla_badge: 'تسارع التعيينات والضمانات التشغيلية',
-        sla_title: 'سرعة قياسية وأعلى كفاءة في توفير الكوادر والتأشيرات بالخليج',
-        sla_desc: 'نقضي على أكبر تحديات الشركات في الخليج: تسريع إجراءات التعيينات، وتخطي عقبات استخراج الفيز، وأتمتة الرواتب والصيانة الفنية بدون أي تعطيل.',
+        sla_title: 'سرعة قياسية وأعلى كفاءة في توفير الكوادر والتأشيرات بدولة الإمارات',
+        sla_desc: 'نقضي على أكبر تحديات الشركات في الإمارات: تسريع إجراءات التعيينات، تخليص تأشيرات العمل، وأتمتة الرواتب بنظام WPS والصيانة الفنية بدون أي تعطيل.',
         sla_m1_title: 'سرعة الاستقدام',
         sla_m1_desc: 'من اختيار المرشح حتى وصول المطار للكوادر الفنية العاجلة.',
         sla_m2_title: 'تخليص سريع للفيز',
-        sla_m2_desc: 'تسريع موافقات السفارات وإجراءات تصاريح العمل الحكومية.',
+        sla_m2_desc: 'تسريع تصاريح الدخول والإجراءات الحكومية بدولة الإمارات.',
         sla_m3_title: 'رواتب بنظام WPS',
-        sla_m3_desc: 'أتمتة كشوف الأجور وتحويل الرواتب دون أي تأخير قانوني.',
+        sla_m3_desc: 'أتمتة كشوف الأجور وتحويل الرواتب دون أي تأخير قانوني بالإمارات.',
         sla_m4_title: 'استجابة صيانة المباني',
         sla_m4_desc: 'طوارئ فنية وتشغيل مرافق وصيانة MEP معتمدة على مدار الساعة.',
 
         // Vacancies & Filters (Arabic)
         vac_badge: 'فرص عمل معتمدة',
-        vac_title: 'الوظائف المتاحة حالياً بالإمارات والخليج',
-        vac_desc: 'تصفح أحدث الوظائف المطلوبة لكبرى الشركات في الإمارات والسعودية والخليج. تأشيرات وسكن ومواصلات مجانية وتأمين شامل.',
+        vac_title: 'الوظائف المتاحة حالياً بدولة الإمارات',
+        vac_desc: 'تصفح أحدث الوظائف المطلوبة لكبرى الشركات في دبي وأبوظبي ودولة الإمارات. تأشيرات وسكن ومواصلات مجانية وتأمين شامل.',
         search_placeholder: 'ابحث بالمسمى الوظيفي، التخصص، أو الكلمات المفتاحية...',
         filter_all: 'كافة الوظائف',
         filter_technical: 'وظائف فنية وتشغيل',
@@ -573,42 +566,46 @@ const I18N_DICTIONARY = {
         // 5-Step Process (Arabic)
         proc_badge: 'دورة الاستقدام والتشغيل',
         proc_title: 'بروتوكول التوظيف والتشغيل خماسي المراحل',
-        proc_desc: 'إطار عمل دقيق وشفاف يضمن مطابقة الكفاءات، الفحص الفني المعتمد، والتسليم في المواعيد المحددة.',
+        proc_desc: 'إطار عمل دقيق وشفاف يضمن مطابقة الكفاءات، الفحص الفني المعتمد، والتسليم في المواعيد المحددة داخل دولة الإمارات.',
         step_1_title: 'تحليل وتحديد الاحتياج',
-        step_1_desc: 'استلام مواصفات العمالة المطلوبة من العميل، سلم الرواتب، التوصيف الوظيفي، ومواعيد وصول الكوادر للمشروع.',
+        step_1_desc: 'استلام مواصفات العمالة المطلوبة من العميل، سلم الرواتب، التوصيف الوظيفي، ومواعيد وصول الكوادر لمشاريع الإمارات.',
         step_2_title: 'الاستقطاب والفرز الأولي',
         step_2_desc: 'البحث في مخزون الكوادر العالمية في الهند ومصر وآسيا لترشيح أفضل الكفاءات المطابقة للشروط.',
         step_3_title: 'اختبار المهن والفحص العملي',
         step_3_desc: 'إجراء اختبارات عملية في ورش مهنية متخصصة ومقابلات فنية دقيقة بإشراف خبراء تقييم معتمدين.',
         step_4_title: 'الفحص الطبي وإصدار التأشيرة',
-        step_4_desc: 'استخراج شهادات اللياقة الطبية (جامكا)، الصحيفة الجنائية، توثيق الشهادات وتصديق التأشيرات من السفارة.',
+        step_4_desc: 'استخراج شهادات اللياقة الطبية، الصحيفة الجنائية، وتصديق التأشيرات وتصاريح الدخول للإمارات.',
         step_5_title: 'حجز الطيران والاستقبال بالمشروع',
-        step_5_desc: 'حجز التذاكر، التوجيه قبل السفر، الاستقبال في مطار الوصول ونقل العمالة للسكن والبدء الفوري بالموقع.',
+        step_5_desc: 'حجز التذاكر، التوجيه قبل السفر، الاستقبال في مطارات الإمارات (دبي/أبوظبي) ونقل العمالة للسكن والبدء الفوري بالموقع.',
 
         // Industries (Arabic)
         ind_badge: 'خبرة القطاعات',
-        ind_title: 'خدمة كبرى القطاعات الاستراتيجية',
-        ind_desc: 'توفير وتجهيز العمالة المتخصصة للمشاريع الكبرى والمصانع والمنشآت الإقليمية.',
-        ind_1_title: 'النفط والغاز والبتروكيماويات', ind_1_desc: 'مشغلي مصافي، لحامي خطوط أنابيب، مهندسي سلامة، وطواقم إغلاق وصيانة دورية.',
-        ind_2_title: 'البنية التحتية والمقاولات الكبرى', ind_2_desc: 'مشاريع الأبراج الشاهقة، الجسور والأنفاق، شبكات المترو، وفرق الحفر والخرسانة.',
+        ind_title: 'خدمة كبرى القطاعات الاستراتيجية في الإمارات',
+        ind_desc: 'توفير وتجهيز العمالة المتخصصة للمشاريع الكبرى والمصانع والمنشآت بدولة الإمارات.',
+        ind_1_title: 'النفط والغاز والبتروكيماويات', ind_1_desc: 'مشغلي مصافي، لحامي خطوط أنابيب، مهندسي سلامة، وطواقم إغلاق وصيانة دورية بأبوظبي.',
+        ind_2_title: 'البنية التحتية والمقاولات الكبرى', ind_2_desc: 'مشاريع الأبراج الشاهقة، الجسور والأنفاق، شبكات المترو، وفرق الحفر والخرسانة في دبي والإمارات.',
         ind_3_title: 'الكهروميكانيك والشبكات (MEP)', ind_3_desc: 'أخصائيي محطات التحويل، التمديدات الكهربائية للمباني، والسباكة الصناعية.',
-        ind_4_title: 'المستشفيات والمراكز الصحية', ind_4_desc: 'كوادر التمريض المتخصص، الأطباء، الفنيين الطبيين ومساعدي الرعاية الصحية.',
+        ind_4_title: 'المستشفيات والمراكز الصحية', ind_4_desc: 'كوادر التمريض المتخصص، الأطباء، الفنيين الطبيين الحاصلين على تراخيص DHA وMOHAP.',
         ind_5_title: 'المصانع وخطوط الإنتاج', ind_5_desc: 'مشغلي خطوط التجميع، فنيي ماكينات CNC، مسؤولي مراقبة الجودة، ومشرفي الإنتاج.',
         ind_6_title: 'الضيافة والمطاعم وإدارة المرافق', ind_6_desc: 'طهاة محترفين، مسؤولي عمليات الفنادق، فرق النظافة والتدبير المنزلي والإعاشة.',
-        ind_7_title: 'النقل الثقيل واللوجستيات والمستودعات', ind_7_desc: 'سائقي تريلات وشاحنات ثقيلة، مدراء سلاسل إمداد، مسؤولي شحن، ومشغلي فوركلفت.',
+        ind_7_title: 'النقل الثقيل واللوجستيات والمستودعات', ind_7_desc: 'سائقي تريلات وشاحنات ثقيلة، مدراء سلاسل إمداد، مسؤولي شحن، ومشغلي فوركلفت في جبل علي والإمارات.',
         ind_8_title: 'المالية والمؤسسات والشركات', ind_8_desc: 'القيادات التنفيذية، مدراء التدقيق، مسؤولي الحسابات، والمستشارين الإداريين.',
 
         // Visa Hub & Footer (Arabic)
-        visa_badge: 'دليل المستندات والشروط',
-        visa_title: 'دليل مواصفات الصور وتأشيرات دول الخليج',
-        visa_desc: 'المعايير المعتمدة من السفارات لمقاسات الصور الشخصية واشتراطات الجوازات والشهادات الطبية لكل دولة.',
-        footer_about: 'المقر الرئيسي في دبي مارينا بلازا، الإمارات العربية المتحدة. إحدى أذرع منظومة فايف هيلز الرائدة في استقدام وتوجيه القوى العاملة العالمية وتوريد الكوادر لدول الخليج.',
+        visa_badge: 'معايير وزارة الموارد البشرية والهوية بالإمارات',
+        visa_title: 'دليل تأشيرات العمل والامتثال القانوني بدولة الإمارات',
+        visa_desc: 'المعايير المعتمدة من وزارة الموارد البشرية والتوطين (MoHRE) والهيئة الاتحادية للهوية والجنسية (ICP) لمقاسات الصور، الفحص الطبي، وتوثيق تصاريح العمل داخل دولة الإمارات.',
+        visa_tab_emp: '🇦🇪 تأشيرة العمل العادية',
+        visa_tab_mission: '⚡ تصاريح مهمة العمل والمشاريع',
+        visa_tab_skilled: '🛠️ الكوادر الفنية وتوثيق المهن',
+        visa_tab_golden: '🌟 الكوادر التنفيذية والإقامة الذهبية',
+        footer_about: 'المقر الرئيسي في دبي مارينا بلازا، الإمارات العربية المتحدة. إحدى أذرع منظومة فايف هيلز الرائدة في استقدام وتوجيه القوى العاملة العالمية لكافة إمارات الدولة.',
         footer_divisions: 'الأقسام والخدمات',
         footer_link_tech: 'الكوادر الفنية والميدانية',
         footer_link_corp: 'التوظيف المؤسسي والدولي',
         footer_link_heavy: 'المعدات الثقيلة والنقل',
         footer_link_fm: 'صيانة المباني وإدارة المرافق',
-        footer_destinations: 'مراكز دول الخليج',
+        footer_destinations: 'مراكز العمل بالإمارات',
         footer_contact: 'التواصل والاستفسارات'
     }
 };
@@ -777,45 +774,45 @@ function switchCountry(countryKey, btnEl) {
 }
 
 function renderCountryDetails(countryKey) {
-    const data = COUNTRY_DOCS_DATA[countryKey] || COUNTRY_DOCS_DATA['uae'];
+    const data = COUNTRY_DOCS_DATA[countryKey] || COUNTRY_DOCS_DATA['employment'];
     const container = document.getElementById('countryDetailsBox');
     if (!container) return;
 
     container.innerHTML = `
-        <div style="display:flex; align-items:center; gap:12px; margin-bottom:28px; padding-bottom:18px; border-bottom:1px solid var(--border-subtle);">
-            <span style="font-size:2.2rem;">${data.flag}</span>
+        <div style="display:flex; align-items:center; gap:14px; margin-bottom:28px; padding-bottom:18px; border-bottom:1px solid var(--border-subtle);">
+            <span style="font-size:2.4rem;">${data.flag}</span>
             <div>
-                <span class="pill-badge emerald" style="font-size:0.72rem; margin-bottom:4px;">EMBASSY REQUIREMENTS</span>
-                <h3 style="font-size:1.5rem; margin:0;">${currentLang === 'ar' ? data.nameAr : data.nameEn}</h3>
+                <span class="pill-badge emerald" style="font-size:0.72rem; margin-bottom:4px;">${currentLang === 'ar' ? data.badgeAr : data.badgeEn}</span>
+                <h3 style="font-size:1.45rem; margin:0; color:var(--text-title);">${currentLang === 'ar' ? data.nameAr : data.nameEn}</h3>
             </div>
         </div>
         <div class="country-info-grid">
             <div class="info-block">
-                <h4>📸 ${currentLang === 'ar' ? 'مواصفات الصور الشخصية' : 'Photographs Standards'}</h4>
+                <h4>📸 ${currentLang === 'ar' ? 'مواصفات الصور الشخصية الرقمية' : 'Photographs & Digital Specs'}</h4>
                 <ul>
                     <li>${currentLang === 'ar' ? data.photoAr : data.photoEn}</li>
-                    <li>${currentLang === 'ar' ? 'صورة حديثة وواضحة الملامح بدون نظارات عاكسة' : 'Recent clear facial image without tinted glasses'}</li>
+                    <li>${currentLang === 'ar' ? 'صورة حديثة وواضحة الملامح متوافقة مع معايير الهيئة الاتحادية ICP' : 'Recent clear biometric facial image meeting UAE ICP digital specifications'}</li>
                 </ul>
             </div>
             <div class="info-block">
-                <h4>🛂 ${currentLang === 'ar' ? 'اشتراطات جواز السفر' : 'Passport Specifications'}</h4>
+                <h4>🛂 ${currentLang === 'ar' ? 'اشتراطات جواز السفر وتصريح الدخول' : 'Passport & Entry Permit'}</h4>
                 <ul>
                     <li>${currentLang === 'ar' ? data.passportAr : data.passportEn}</li>
-                    <li>${currentLang === 'ar' ? 'نسخ ضوئية مصدقة واضحة للبيانات والتمديد' : 'High-resolution notarized photocopies of bio pages'}</li>
+                    <li>${currentLang === 'ar' ? 'نسخ ضوئية ملونة عالية الدقة لصفحة البيانات والتأشيرات السابقة' : 'High-resolution notarized digital color scans of data pages'}</li>
                 </ul>
             </div>
             <div class="info-block">
-                <h4>🏥 ${currentLang === 'ar' ? 'الفحص الطبي والبصمات' : 'Medical & Biometrics'}</h4>
+                <h4>🏥 ${currentLang === 'ar' ? 'الفحص الطبي والهوية الإماراتية' : 'Medical Fitness & Emirates ID'}</h4>
                 <ul>
                     <li>${currentLang === 'ar' ? data.medicalAr : data.medicalEn}</li>
-                    <li>${currentLang === 'ar' ? 'تقرير اللياقة المهنية والسلامة من الأمراض المعدية' : 'Full physical fitness and communicable disease clearance'}</li>
+                    <li>${currentLang === 'ar' ? 'فحص اللياقة البدنية والمهنية والسلامة من الأمراض المعتمد بالدولة' : 'Full UAE occupational fitness clearance and communicable disease testing'}</li>
                 </ul>
             </div>
             <div class="info-block">
-                <h4>📜 ${currentLang === 'ar' ? 'توثيق الشهادات والمهنة' : 'Attestation & Trade Tests'}</h4>
+                <h4>📜 ${currentLang === 'ar' ? 'اعتماد الموارد البشرية ونظام WPS' : 'MoHRE Approval & WPS Compliance'}</h4>
                 <ul>
                     <li>${currentLang === 'ar' ? data.attestAr : data.attestEn}</li>
-                    <li>${currentLang === 'ar' ? 'شهادات مزاولة المهنة المعتمدة' : 'Accredited vocational trade certification'}</li>
+                    <li>${currentLang === 'ar' ? 'تسجيل إلكتروني فوري بنظام حماية الأجور الإماراتي وتوثيق المؤهلات' : 'Official registration in UAE Wage Protection System (WPS) and verified trade testing'}</li>
                 </ul>
             </div>
         </div>
