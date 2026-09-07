@@ -11,6 +11,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Tajawal:wght@300;400;500;700;800;900&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
 
+    <!-- Favicon & Touch Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
+
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -21,16 +27,9 @@
         <div class="container">
             <div class="nav-container">
                 <!-- Brand Logo (Five Hills Workforce) -->
-                <a href="#hero" class="brand-logo">
-                    <div class="brand-logo-icon">
-                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="m8 3 4 8 5-5 5 15H2L8 3z"/>
-                        </svg>
-                    </div>
-                    <div class="brand-logo-text">
-                        <span>FIVE HILLS</span>
-                        WORKFORCE
-                    </div>
+                <a href="#hero" class="brand-logo" aria-label="Five Hills Workforce">
+                    <img src="logo-horizontal.png" alt="Five Hills Workforce & Technical Solutions" class="brand-logo-img logo-light">
+                    <img src="logo-horizontal-dark.png" alt="Five Hills Workforce & Technical Solutions" class="brand-logo-img logo-dark">
                 </a>
 
                 <!-- Desktop Navigation Menu -->
@@ -485,16 +484,10 @@
     <footer class="site-footer">
         <div class="container">
             <div class="footer-grid">
-                <div class="footer-about">
-                    <div class="brand-logo">
-                        <div class="brand-logo-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>
-                        </div>
-                        <div class="brand-logo-text">
-                            <span>FIVE HILLS</span>
-                            WORKFORCE
-                        </div>
-                    </div>
+                    <a href="#hero" class="brand-logo footer-brand-logo" aria-label="Five Hills Workforce">
+                        <img src="logo-horizontal.png" alt="Five Hills Workforce & Technical Solutions" class="brand-logo-img logo-light">
+                        <img src="logo-horizontal-dark.png" alt="Five Hills Workforce & Technical Solutions" class="brand-logo-img logo-dark">
+                    </a>
                     <p data-i18n="footer_about">
                         Headquartered in Dubai Marina Plaza, UAE. Part of the Five Hills ecosystem, mobilizing world-class workforce from global sourcing corridors to the GCC.
                     </p>
@@ -546,15 +539,10 @@
     <!-- MOBILE NAVIGATION DRAWER -->
     <div class="mobile-nav-drawer" id="mobileNavDrawer">
         <div class="mobile-nav-header">
-            <div class="brand-logo">
-                <div class="brand-logo-icon">
-                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>
-                </div>
-                <div class="brand-logo-text">
-                    <span>FIVE HILLS</span>
-                    WORKFORCE
-                </div>
-            </div>
+            <a href="#hero" class="brand-logo" onclick="toggleMobileMenu()" aria-label="Five Hills Workforce">
+                <img src="logo-horizontal.png" alt="Five Hills Workforce & Technical Solutions" class="brand-logo-img logo-light">
+                <img src="logo-horizontal-dark.png" alt="Five Hills Workforce & Technical Solutions" class="brand-logo-img logo-dark">
+            </a>
             <button class="mobile-nav-close" onclick="toggleMobileMenu()">&times;</button>
         </div>
         <div class="mobile-nav-links">
