@@ -44,7 +44,7 @@
 
                 <!-- Actions: Language Switcher, Theme Switcher & CTA -->
                 <div class="nav-actions">
-                    <button class="lang-btn desktop-only" id="langToggleBtn" onclick="toggleLanguage()">العربية</button>
+                    <button class="lang-btn" id="langToggleBtn" onclick="toggleLanguage()">العربية</button>
                     <button class="icon-btn desktop-only" id="themeToggleBtn" onclick="toggleTheme()" title="Toggle Theme">☀️</button>
                     <button class="btn-primary desktop-only" onclick="openModal('employerModal')" data-i18n="btn_hire_workforce">Hire Workforce</button>
                     
@@ -620,8 +620,8 @@
         </div>
         <div class="mobile-nav-footer">
             <div class="mobile-nav-controls">
-                <button class="lang-btn" onclick="toggleLanguage(); toggleMobileMenu();">العربية / EN</button>
-                <button class="icon-btn" onclick="toggleTheme();" title="Toggle Theme">🌓</button>
+                <button class="lang-btn" id="mobileLangToggleBtn" onclick="toggleLanguage(); toggleMobileMenu();">العربية</button>
+                <button class="icon-btn theme-toggle-btn" onclick="toggleTheme();" title="Toggle Theme">🌓</button>
             </div>
             <button class="btn-primary" style="width:100%; margin-top:12px;" onclick="openModal('employerModal'); toggleMobileMenu();" data-i18n="btn_hire_workforce">Hire Workforce</button>
         </div>

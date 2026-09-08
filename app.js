@@ -638,10 +638,10 @@ function setTheme(theme) {
     currentTheme = theme;
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('fh_theme', theme);
-    const themeBtn = document.getElementById('themeToggleBtn');
-    if (themeBtn) {
-        themeBtn.textContent = theme === 'light' ? '🌙' : '☀️';
-    }
+    const themeBtns = document.querySelectorAll('#themeToggleBtn, .theme-toggle-btn');
+    themeBtns.forEach(btn => {
+        btn.textContent = theme === 'light' ? '🌙' : '☀️';
+    });
 }
 
 // --- LANGUAGE SWITCHER (EN / AR) ---
@@ -650,10 +650,10 @@ function toggleLanguage() {
     document.documentElement.setAttribute('dir', currentLang === 'ar' ? 'rtl' : 'ltr');
     document.documentElement.setAttribute('lang', currentLang);
 
-    const langBtn = document.getElementById('langToggleBtn');
-    if (langBtn) {
-        langBtn.textContent = currentLang === 'en' ? 'العربية' : 'English';
-    }
+    const langBtns = document.querySelectorAll('.lang-btn, #langToggleBtn, #mobileLangToggleBtn');
+    langBtns.forEach(btn => {
+        btn.textContent = currentLang === 'en' ? 'العربية' : 'English';
+    });
 
     const elements = document.querySelectorAll('[data-i18n]');
     elements.forEach(el => {
