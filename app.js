@@ -454,10 +454,10 @@ const I18N_DICTIONARY = {
         visa_badge: 'UAE MoHRE & ICP Standards',
         visa_title: 'UAE Work Visa & Compliance Standards',
         visa_desc: 'Official Ministry of Human Resources (MoHRE), ICP & Embassy documentation, photograph dimensions, and medical clearances for deploying workforce exclusively across the United Arab Emirates.',
-        visa_tab_emp: '🇦🇪 Standard Employment Visa',
-        visa_tab_mission: '⚡ Project & Mission Permit',
-        visa_tab_skilled: '🛠️ Technical Skilled Trades',
-        visa_tab_golden: '🌟 Executive & Golden Visa',
+        visa_tab_emp: 'Standard Employment Visa',
+        visa_tab_mission: 'Project & Mission Permit',
+        visa_tab_skilled: 'Technical Skilled Trades',
+        visa_tab_golden: 'Executive & Golden Visa',
         footer_about: 'Headquartered in Dubai Marina Plaza, UAE. Part of the Five Hills ecosystem, mobilizing world-class workforce exclusively across the United Arab Emirates.',
         footer_divisions: 'Divisions & Services',
         footer_link_tech: 'Technical & Field Crew',
@@ -595,10 +595,10 @@ const I18N_DICTIONARY = {
         visa_badge: 'معايير وزارة الموارد البشرية والهوية بالإمارات',
         visa_title: 'دليل تأشيرات العمل والامتثال القانوني بدولة الإمارات',
         visa_desc: 'المعايير المعتمدة من وزارة الموارد البشرية والتوطين (MoHRE) والهيئة الاتحادية للهوية والجنسية (ICP) لمقاسات الصور، الفحص الطبي، وتوثيق تصاريح العمل داخل دولة الإمارات.',
-        visa_tab_emp: '🇦🇪 تأشيرة العمل العادية',
-        visa_tab_mission: '⚡ تصاريح مهمة العمل والمشاريع',
-        visa_tab_skilled: '🛠️ الكوادر الفنية وتوثيق المهن',
-        visa_tab_golden: '🌟 الكوادر التنفيذية والإقامة الذهبية',
+        visa_tab_emp: 'تأشيرة العمل العادية',
+        visa_tab_mission: 'تصاريح مهمة العمل والمشاريع',
+        visa_tab_skilled: 'الكوادر الفنية وتوثيق المهن',
+        visa_tab_golden: 'الكوادر التنفيذية والإقامة الذهبية',
         footer_about: 'المقر الرئيسي في دبي مارينا بلازا، الإمارات العربية المتحدة. إحدى أذرع منظومة فايف هيلز الرائدة في استقدام وتوجيه القوى العاملة العالمية لكافة إمارات الدولة.',
         footer_divisions: 'الأقسام والخدمات',
         footer_link_tech: 'الكوادر الفنية والميدانية',
@@ -780,7 +780,7 @@ function renderCountryDetails(countryKey) {
 
     container.innerHTML = `
         <div style="display:flex; align-items:center; gap:14px; margin-bottom:28px; padding-bottom:18px; border-bottom:1px solid var(--border-subtle);">
-            <span style="font-size:2.4rem;">${data.flag}</span>
+            <span class="brand-icon-chip" style="width:48px; height:48px; border-radius:12px; background:linear-gradient(135deg, var(--primary) 0%, var(--accent-emerald) 100%); display:inline-flex; align-items:center; justify-content:center; color:#fff;"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="m9 15 2 2 4-4"/></svg></span>
             <div>
                 <span class="pill-badge emerald" style="font-size:0.72rem; margin-bottom:4px;">${currentLang === 'ar' ? data.badgeAr : data.badgeEn}</span>
                 <h3 style="font-size:1.45rem; margin:0; color:var(--text-title);">${currentLang === 'ar' ? data.nameAr : data.nameEn}</h3>
@@ -788,28 +788,28 @@ function renderCountryDetails(countryKey) {
         </div>
         <div class="country-info-grid">
             <div class="info-block">
-                <h4>📸 ${currentLang === 'ar' ? 'مواصفات الصور الشخصية الرقمية' : 'Photographs & Digital Specs'}</h4>
+                <h4>${currentLang === 'ar' ? 'مواصفات الصور الشخصية الرقمية' : 'Photographs & Digital Specs'}</h4>
                 <ul>
                     <li>${currentLang === 'ar' ? data.photoAr : data.photoEn}</li>
                     <li>${currentLang === 'ar' ? 'صورة حديثة وواضحة الملامح متوافقة مع معايير الهيئة الاتحادية ICP' : 'Recent clear biometric facial image meeting UAE ICP digital specifications'}</li>
                 </ul>
             </div>
             <div class="info-block">
-                <h4>🛂 ${currentLang === 'ar' ? 'اشتراطات جواز السفر وتصريح الدخول' : 'Passport & Entry Permit'}</h4>
+                <h4>${currentLang === 'ar' ? 'اشتراطات جواز السفر وتصريح الدخول' : 'Passport & Entry Permit'}</h4>
                 <ul>
                     <li>${currentLang === 'ar' ? data.passportAr : data.passportEn}</li>
                     <li>${currentLang === 'ar' ? 'نسخ ضوئية ملونة عالية الدقة لصفحة البيانات والتأشيرات السابقة' : 'High-resolution notarized digital color scans of data pages'}</li>
                 </ul>
             </div>
             <div class="info-block">
-                <h4>🏥 ${currentLang === 'ar' ? 'الفحص الطبي والهوية الإماراتية' : 'Medical Fitness & Emirates ID'}</h4>
+                <h4>${currentLang === 'ar' ? 'الفحص الطبي والهوية الإماراتية' : 'Medical Fitness & Emirates ID'}</h4>
                 <ul>
                     <li>${currentLang === 'ar' ? data.medicalAr : data.medicalEn}</li>
                     <li>${currentLang === 'ar' ? 'فحص اللياقة البدنية والمهنية والسلامة من الأمراض المعتمد بالدولة' : 'Full UAE occupational fitness clearance and communicable disease testing'}</li>
                 </ul>
             </div>
             <div class="info-block">
-                <h4>📜 ${currentLang === 'ar' ? 'اعتماد الموارد البشرية ونظام WPS' : 'MoHRE Approval & WPS Compliance'}</h4>
+                <h4>${currentLang === 'ar' ? 'اعتماد الموارد البشرية ونظام WPS' : 'MoHRE Approval & WPS Compliance'}</h4>
                 <ul>
                     <li>${currentLang === 'ar' ? data.attestAr : data.attestEn}</li>
                     <li>${currentLang === 'ar' ? 'تسجيل إلكتروني فوري بنظام حماية الأجور الإماراتي وتوثيق المؤهلات' : 'Official registration in UAE Wage Protection System (WPS) and verified trade testing'}</li>

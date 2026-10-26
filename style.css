@@ -23,9 +23,9 @@
   --accent-emerald-light: #239e53;
   --accent-emerald-rgb: 27, 130, 67;
   
-  --accent-gold: #cfa15c;
-  --accent-gold-light: #dfb574;
-  --accent-gold-rgb: 207, 161, 92;
+  --accent-gold: #1b8243;
+  --accent-gold-light: #239e53;
+  --accent-gold-rgb: 27, 130, 67;
 
   --text-title: #0f172a;
   --text-heading: #0f172a;
@@ -78,9 +78,9 @@
   --accent-emerald-light: #4ade80;
   --accent-emerald-rgb: 34, 197, 94;
 
-  --accent-gold: #fbbf24;
-  --accent-gold-light: #fcd34d;
-  --accent-gold-rgb: 251, 191, 36;
+  --accent-gold: #22c55e;
+  --accent-gold-light: #4ade80;
+  --accent-gold-rgb: 34, 197, 94;
 
   --text-title: #F8FAFC;
   --text-heading: #F8FAFC;
@@ -172,12 +172,12 @@ button, input, select, textarea {
 }
 
 .gold-gradient-text {
-  background: linear-gradient(135deg, #0c3c66 0%, #1b8243 50%, #cfa15c 100%);
+  background: linear-gradient(135deg, #0c3c66 0%, #165691 45%, #1b8243 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 [data-theme="dark"] .gold-gradient-text {
-  background: linear-gradient(135deg, #7dd3fc 0%, #4ade80 50%, #fcd34d 100%);
+  background: linear-gradient(135deg, #7dd3fc 0%, #38bdf8 45%, #4ade80 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1100,7 +1100,7 @@ button, input, select, textarea {
 }
 .process-card:hover {
   transform: translateY(-6px);
-  border-color: var(--accent-gold);
+  border-color: var(--accent-emerald);
   box-shadow: var(--shadow-md);
 }
 
@@ -1119,7 +1119,7 @@ button, input, select, textarea {
   transition: var(--transition-smooth);
 }
 [data-theme="dark"] .step-num {
-  background: linear-gradient(135deg, #38bdf8 0%, #fbbf24 100%);
+  background: linear-gradient(135deg, #38bdf8 0%, #22c55e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0.95;
@@ -1138,7 +1138,7 @@ button, input, select, textarea {
   width: 48px;
   height: 48px;
   border-radius: var(--radius-md);
-  background: rgba(207, 161, 92, 0.12);
+  background: rgba(27, 130, 67, 0.10);
   color: var(--accent-gold);
   display: flex;
   align-items: center;
@@ -1780,11 +1780,11 @@ button, input, select, textarea {
 }
 
 .process-icon svg {
-  stroke: var(--accent-gold);
+  stroke: var(--accent-emerald);
   transition: var(--transition-smooth);
 }
 .process-card:hover .process-icon {
-  background: var(--accent-gold);
+  background: var(--accent-emerald);
 }
 .process-card:hover .process-icon svg {
   stroke: #FFFFFF;
@@ -2389,4 +2389,18 @@ button, input, select, textarea {
 /* Touch and Input Optimizations for Mobile */
 input, select, textarea, button {
   font-size: 16px !important; /* Prevents auto-zoom in iOS Safari */
+}
+
+/* Clean bullet styling for info-block headings */
+.info-block h4 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.info-block h4::before {
+  content: "•";
+  color: var(--accent-emerald, #1b8243);
+  font-size: 1.4rem;
+  line-height: 1;
+  font-weight: 700;
 }
