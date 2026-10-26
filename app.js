@@ -723,15 +723,15 @@ function renderJobs() {
                 <h3 class="job-title">${currentLang === 'ar' ? job.titleAr : job.titleEn}</h3>
                 <div class="job-meta-list">
                     <div class="job-meta-item">
-                        <span>⏳</span>
+                        <span class="meta-bullet">•</span>
                         <span>${currentLang === 'ar' ? job.expAr : job.expEn}</span>
                     </div>
                     <div class="job-meta-item">
-                        <span>📜</span>
+                        <span class="meta-bullet">•</span>
                         <span>${currentLang === 'ar' ? job.reqAr : job.reqEn}</span>
                     </div>
                     <div class="job-meta-item">
-                        <span>🎁</span>
+                        <span class="meta-bullet">•</span>
                         <span>${currentLang === 'ar' ? job.perksAr : job.perksEn}</span>
                     </div>
                 </div>
