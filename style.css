@@ -2404,3 +2404,44 @@ input, select, textarea, button {
   line-height: 1;
   font-weight: 700;
 }
+
+/* URGENT HIRING TOP BANNER & FEATURED JOB CARD */
+.urgent-hiring-banner {
+    background: linear-gradient(90deg, #0c3c66 0%, #1b8243 100%);
+    color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-size: 0.88rem;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    z-index: 9999;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+.urgent-hiring-banner .apply-link {
+    background: #ffffff;
+    color: #0c3c66;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    display: inline-block;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.urgent-hiring-banner .apply-link:hover {
+    background: #1b8243;
+    color: #ffffff;
+    transform: translateY(-1px);
+}
+.featured-job-card {
+    border: 2px solid var(--accent-emerald) !important;
+    background: linear-gradient(180deg, rgba(27, 130, 67, 0.06) 0%, rgba(12, 60, 102, 0.03) 100%), var(--bg-card) !important;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(27, 130, 67, 0.16) !important;
+    transform: translateY(-2px);
+}

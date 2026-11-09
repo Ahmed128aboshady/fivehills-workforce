@@ -6,6 +6,24 @@
 // --- JOBS DATA ---
 const VACANCIES_DATA = [
     {
+        id: 'job-accountant',
+        titleEn: 'Senior Financial / Corporate Accountant',
+        titleAr: 'محاسب مالي أول للشركات (Senior Accountant)',
+        category: 'corporate',
+        countryEn: 'UAE (Dubai HQ)',
+        countryAr: 'الإمارات (مقر دبي)',
+        flag: '🇦🇪',
+        isFeatured: true,
+        expEn: 'Min 5+ Years UAE Corporate Accounting & Audit',
+        expAr: 'خبرة 5+ سنوات داخل الإمارات في القوائم المالية والتدقيق',
+        reqEn: 'UAE VAT & Corporate Tax, ERP Master (SAP / Odoo / QuickBooks)',
+        reqAr: 'إتقان تام لضريبة الشركات والـ VAT وأنظمة الـ ERP (Odoo / SAP)',
+        salaryEn: 'AED 6,000 – 8,500 Package',
+        salaryAr: '6,000 – 8,500 درهم شهرياً',
+        perksEn: 'Annual Flight Ticket, Health Insurance, 2-Year Residency Visa',
+        perksAr: 'إقامة عمل سنتين + تأمين صحي شامل + تذكرة سنوية'
+    },
+    {
         id: 'job-1',
         titleEn: 'Electrical Linemen (High Voltage)',
         titleAr: 'فنيين وكهربائيين خطوط هوائية (جهد عالي)',
@@ -73,23 +91,7 @@ const VACANCIES_DATA = [
         perksEn: 'Free Accommodation & Transportation',
         perksAr: 'سكن ومواصلات مجانية'
     },
-    {
-        id: 'job-5',
-        titleEn: 'Senior Corporate Accountant',
-        titleAr: 'محاسب عام ومالي أول للشركات',
-        category: 'corporate',
-        countryEn: 'UAE (Dubai HQ)',
-        countryAr: 'الإمارات (مقر دبي)',
-        flag: '🇦🇪',
-        expEn: 'Min 5 Years in Corporate Accounts',
-        expAr: 'خبرة 5 سنوات في الحسابات العامة والشركات',
-        reqEn: 'B.Com / Accounting Degree, ERP (Odoo/SAP) Master',
-        reqAr: 'بكالوريوس تجارة/محاسبة، إتقان أنظمة ERP وبرامج المحاسبة',
-        salaryEn: 'AED 6,000 - 8,500 Package',
-        salaryAr: '6,000 - 8,500 درهم شهرياً',
-        perksEn: 'Annual Ticket, Health Insurance, Visa',
-        perksAr: 'تذكرة سنوية وتأمين طبي شامل وإقامة'
-    },
+    
     {
         id: 'job-6',
         titleEn: 'Industrial Plumbers & Pipe Fitters',
@@ -712,13 +714,19 @@ function renderJobs() {
     }
 
     container.innerHTML = filtered.map(job => `
-        <div class="job-card">
+        <div class="job-card ${job.isFeatured ? 'featured-job-card' : ''}">
             <div>
                 <div class="job-header">
                     <span class="job-country-badge">
                         <span>${job.flag}</span> ${currentLang === 'ar' ? job.countryAr : job.countryEn}
                     </span>
-                    <span class="pill-badge gold" style="font-size:0.7rem;">SHORTLISTING</span>
+                    ${job.isFeatured ? `
+                        <span class="pill-badge gold featured-badge" style="font-size:0.72rem; font-weight:700; background:linear-gradient(135deg, #1b8243, #0c3c66); color:#fff; border:none; padding:4px 10px; border-radius:20px; box-shadow:0 2px 8px rgba(27,130,67,0.35);">
+                            ${currentLang === 'ar' ? '🔥 توظيف عاجل' : '🔥 URGENT HIRING'}
+                        </span>
+                    ` : `
+                        <span class="pill-badge gold" style="font-size:0.7rem;">SHORTLISTING</span>
+                    `}
                 </div>
                 <h3 class="job-title">${currentLang === 'ar' ? job.titleAr : job.titleEn}</h3>
                 <div class="job-meta-list">
