@@ -722,7 +722,7 @@ function renderJobs() {
                     </span>
                     ${job.isFeatured ? `
                         <span class="pill-badge gold featured-badge" style="font-size:0.72rem; font-weight:700; background:linear-gradient(135deg, #1b8243, #0c3c66); color:#fff; border:none; padding:4px 10px; border-radius:20px; box-shadow:0 2px 8px rgba(27,130,67,0.35);">
-                            ${currentLang === 'ar' ? '🔥 توظيف عاجل' : '🔥 URGENT HIRING'}
+                            ${currentLang === 'ar' ? 'توظيف عاجل' : 'URGENT HIRING'}
                         </span>
                     ` : `
                         <span class="pill-badge gold" style="font-size:0.7rem;">SHORTLISTING</span>
